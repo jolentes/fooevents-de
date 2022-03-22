@@ -1,0 +1,3448 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-03-14 09:10+0200\n"
+"PO-Revision-Date: 2022-03-14 09:10+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e;esc_attr__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-fooevents.php:209
+msgid ""
+"WooCommerce Events has re-branded to FooEvents. Please disable and remove "
+"the older WooCommerce Events plugin."
+msgstr ""
+"WooCommerce Events wurde zu FooEvents umbenannt. Bitte deaktiviere und"
+"entferne das alte WooCommerce Events Plugin."
+
+#: class-fooevents.php:216 class-fooevents.php:221 class-fooevents.php:228
+#: class-fooevents.php:235 class-fooevents.php:242
+#, php-format
+msgid "Directory %s is not writeable"
+msgstr "Verzeichnis %s ist nicht schreibbar"
+
+#: class-fooevents.php:249
+msgid ""
+"We have detected that you have overridden FooEvents ticket template files in "
+"your Wordpress theme. Please move these to an overridden ticket theme "
+"directory. Please consult the FooEvents documentation on how to do this."
+msgstr ""
+
+#: class-fooevents.php:257
+msgid ""
+"PHP GD library is a requirement for FooEvents to generate QR codes. Please "
+"contact your web host to enable PHP GD libraries."
+msgstr ""
+
+#: class-fooevents.php:269
+msgid "Purchaser username already used. Ticket was not created."
+msgstr "Käufer Benutzername wird bereits verwendet. Ticket wurde nicht erstellt."
+
+#: class-fooevents.php:270
+msgid "An error occured. Ticket was not created."
+msgstr "Ein Fehler ist aufgetreten. Ticket wurde nicht erstellt."
+
+#: class-fooevents.php:271
+msgid "Purchaser email address already used. Ticket was not created."
+msgstr "Käufer Email Adresse wird bereits verwendet. Ticket wurde nicht erstellt."
+
+#: class-fooevents.php:378 class-fooevents.php:387 class-fooevents.php:397
+#: class-fooevents.php:407 class-fooevents.php:424
+#, php-format
+msgid ""
+"FooEvents failed to create the directory %s please manually create this "
+"directory on your server."
+msgstr ""
+
+#: class-fooevents.php:552
+msgid "Done"
+msgstr "Erledigt"
+
+#: class-fooevents.php:553
+msgid "Today"
+msgstr "Heute"
+
+#: class-fooevents.php:556
+msgid "Show a different month"
+msgstr "Zeige einen anderen Monat"
+
+#: class-fooevents.php:567 class-fooevents.php:702
+#: classes/class-fooevents-zoom-api-helper.php:802
+#: classes/class-fooevents-zoom-api-helper.php:806
+msgid "minutes"
+msgstr "Minuten"
+
+#: class-fooevents.php:568 class-fooevents.php:700
+#: classes/class-fooevents-zoom-api-helper.php:802
+msgid "hours"
+msgstr "Stunden"
+
+#: class-fooevents.php:569 classes/class-fooevents-zoom-api-helper.php:506
+msgid "days"
+msgstr "Tage"
+
+#: class-fooevents.php:570 classes/class-fooevents-zoom-api-helper.php:510
+msgid "weeks"
+msgstr "Wochen"
+
+#: class-fooevents.php:589
+msgid "Your stationery settings have been saved."
+msgstr "Deine Briefpapier Einstellungen wurden gespeichert."
+
+#: class-fooevents.php:590
+msgid "An error occurred while saving your stationery settings."
+msgstr "Ein Fehler ist beim Speichern der Briefpapier Einstellungen aufgetreten."
+
+#: class-fooevents.php:617 templates/tickets-add-ticket.php:108
+msgid "Event Overview"
+msgstr "Event Übersicht"
+
+#: class-fooevents.php:618 templates/tickets-add-ticket.php:109
+msgid "Select an event in the <strong>Event Details</strong> section."
+msgstr "Wähle ein Event im Abschnitt <strong>Event Übersicht</strong>."
+
+#: class-fooevents.php:640 templates/global-settings.php:409
+msgid "Test Access"
+msgstr "Zugang testen"
+
+#: class-fooevents.php:641
+msgid "Testing Access..."
+msgstr "Teste Zugang ..."
+
+#: class-fooevents.php:642
+msgid "Successfully connected to your Zoom account"
+msgstr "Erfolgreich mit deinem Zoom Konto verbunden"
+
+#: class-fooevents.php:643 templates/global-settings.php:422
+#: templates/product-event-integration-settings.php:61
+msgid "Fetch Users"
+msgstr "Benutzer abrufen"
+
+#: class-fooevents.php:644
+msgid "Fetching Users..."
+msgstr "Benutzer werden abgerufen ..."
+
+#: class-fooevents.php:645 templates/global-settings.php:432
+msgid ""
+"Show only meetings/webinars for the user that generated the API Key and "
+"Secret"
+msgstr ""
+"Nur Meetings/Webinare des Benuzters zeigen, der den API Key und "
+"Secret generiert hat"
+
+#: class-fooevents.php:646 templates/global-settings.php:434
+msgid "Show all meetings/webinars created by the following users:"
+msgstr "Zeige alle Meetings/Webinare der folgenden Benutzer:"
+
+#: class-fooevents.php:647 templates/global-settings.php:445
+msgid ""
+"Please note that meeting/webinar load times will increase as more users are "
+"selected."
+msgstr ""
+"Bitte beachte, dass die Meeting/Webinar Ladezeiten steigen je mehr Benutzer "
+"ausgewählt werden."
+
+#: class-fooevents.php:650
+msgid "Not set"
+msgstr "Nicht gesetzt"
+
+#: class-fooevents.php:651
+msgid "Auto-generate"
+msgstr "Automatisch generieren"
+
+#: class-fooevents.php:652 classes/class-fooevents-zoom-api-helper.php:1322
+#: classes/class-fooevents-zoom-api-helper.php:1429
+msgid "Topic"
+msgstr "Thema"
+
+#: class-fooevents.php:653 classes/class-fooevents-woo-helper.php:1917
+#: templates/event-tab-map.php:10
+msgid "Description"
+msgstr "Beschreibung"
+
+#: class-fooevents.php:654 classes/class-fooevents-orders-helper.php:388
+#: classes/class-fooevents-ticket-helper.php:2319
+#: classes/class-fooevents-zoom-api-helper.php:1323
+#: classes/class-fooevents-zoom-api-helper.php:1431
+#: templates/order-new-order-email-ticket-details.php:30
+#: templates/order-new-order-email-ticket-details.php:41
+msgid "Date"
+msgstr "Datum"
+
+#: class-fooevents.php:655 classes/class-fooevents-zoom-api-helper.php:1323
+#: classes/class-fooevents-zoom-api-helper.php:1431
+msgid "Start date"
+msgstr "Start Datum"
+
+#: class-fooevents.php:656
+#: templates/order-new-order-email-ticket-details.php:44
+msgid "End date"
+msgstr "Ende Datum"
+
+#: class-fooevents.php:657 classes/class-fooevents-zoom-api-helper.php:1324
+#: classes/class-fooevents-zoom-api-helper.php:1433
+#: templates/order-new-order-email-ticket-details.php:33
+#: templates/order-new-order-email-ticket-details.php:47
+#: templates/order-new-order-email-ticket-details.php:61
+msgid "Start time"
+msgstr "Start Zeit"
+
+#: class-fooevents.php:658 classes/class-fooevents-zoom-api-helper.php:1325
+#: classes/class-fooevents-zoom-api-helper.php:1434
+#: templates/order-new-order-email-ticket-details.php:36
+#: templates/order-new-order-email-ticket-details.php:50
+#: templates/order-new-order-email-ticket-details.php:64
+msgid "End time"
+msgstr "Ende Zeit"
+
+#: class-fooevents.php:659 classes/class-fooevents-zoom-api-helper.php:1326
+#: classes/class-fooevents-zoom-api-helper.php:1435
+msgid "Duration"
+msgstr "Dauer"
+
+#: class-fooevents.php:660 classes/class-fooevents-zoom-api-helper.php:1330
+#: classes/class-fooevents-zoom-api-helper.php:1439
+msgid "Recurrence"
+msgstr "Wiederholung"
+
+#: class-fooevents.php:661
+msgid "Upcoming occurrences"
+msgstr "Nächste Termine"
+
+#: class-fooevents.php:662
+msgid "Occurrences"
+msgstr "Termine"
+
+#: class-fooevents.php:663
+msgid "No upcoming occurrences"
+msgstr "Keine zukünftigen Termine"
+
+#: class-fooevents.php:664
+msgid "Unable to fetch meeting details"
+msgstr "Holen der Meeting Details nicht möglich"
+
+#: class-fooevents.php:665
+msgid "Unable to fetch webinar details"
+msgstr "Holen der Webinar Details nicht möglich"
+
+#: class-fooevents.php:666
+msgid "Note: Automatic attendee registration is required."
+msgstr "Hinweis: Automatische Teilnehmer Registrierung ist erforderlich."
+
+#: class-fooevents.php:667
+msgid "Note: Automatic attendee registration is required for all occurrences."
+msgstr "Hinwei: Automatische Teilnehmer Registrierung ist für alle Termine erforderlich."
+
+#: class-fooevents.php:668
+msgid "Note: Attendees will be registered automatically."
+msgstr "Hinweis: Teilnehmer werden automatisch registriert."
+
+#: class-fooevents.php:669
+msgid "Note: Attendees will be registered automatically for all occurrences."
+msgstr "Hinweis: Teilnehmer werden automatisch für alle Termine registriert."
+
+#: class-fooevents.php:670
+msgid "Automatic attendee registration is currently enabled for this meeting"
+msgstr "Automatische Teilnehmer Registrierung ist für dieses Meeting eingeschaltet"
+
+#: class-fooevents.php:671
+msgid "Automatic attendee registration is currently enabled for this webinar"
+msgstr "Automatische Teilnehmer Registrierung ist für dieses Webinar eingeschaltet"
+
+#: class-fooevents.php:672
+msgid "Automatic attendee registration is currently disabled for this meeting"
+msgstr "Automatische Teilnehmer Registrierung ist für dieses Meeting ausgeschaltet"
+
+#: class-fooevents.php:673
+msgid "Automatic attendee registration is currently disabled for this webinar"
+msgstr "Automatische Teilnehmer Registrierung ist für dieses Webinar ausgeschaltet"
+
+#: class-fooevents.php:674
+msgid "Enable automatic attendee registration for this meeting"
+msgstr "Automatische Teilnehmer Registrierung ist für dieses Meeting einschalten"
+
+#: class-fooevents.php:675
+msgid "Enable automatic attendee registration for this webinar"
+msgstr "Automatische Teilnehmer Registrierung ist für dieses Webinar einschalten"
+
+#: class-fooevents.php:676
+msgid ""
+"Automatic attendee registration is currently enabled for all occurrences"
+msgstr ""
+"Automatische Teilnehmer Registrierung ist für alle Termine eingeschaltet"
+
+#: class-fooevents.php:677
+msgid ""
+"Automatic attendee registration is not currently enabled for all occurrences"
+msgstr ""
+"Automatische Teilnehmer Registrierung ist nicht für alle Termine eingeschaltet
+
+#: class-fooevents.php:678
+msgid "Enable automatic attendee registration for all occurrences"
+msgstr "Automatische Teilnehmer Registrierung für alle Termine einschalten"
+
+#: class-fooevents.php:679
+msgid "Registrations"
+msgstr "Registrierungen"
+
+#: class-fooevents.php:680
+msgid "Link the event to these meetings/webinars:"
+msgstr "Event mit diesen Meetings/Webinaren verlinken:"
+
+#: class-fooevents.php:681
+msgid "Show details"
+msgstr "Zeige Details"
+
+#: class-fooevents.php:682
+msgid "Hide details"
+msgstr "Verstecke Details"
+
+#: class-fooevents.php:683
+msgid "This is not a recurring meeting"
+msgstr "Dies ist kein wiederkehrendes Meeting"
+
+#: class-fooevents.php:684
+msgid "This is not a recurring webinar"
+msgstr "Dies ist kein wiederkehrendes Webinar"
+
+#: class-fooevents.php:685
+msgid ""
+"This meeting's recurrence is currently set to 'No Fixed Time' which does not "
+"allow attendees to pre-register in advance. Please change the setting for "
+"this meeting to have a fixed recurrence (daily/weekly/monthly) in your Zoom "
+"account before proceeding."
+msgstr ""
+
+#: class-fooevents.php:686
+msgid ""
+"This webinar's recurrence is currently set to 'No Fixed Time' which does not "
+"allow attendees to pre-register in advance. Please change the setting for "
+"this webinar to have a fixed recurrence (daily/weekly/monthly) in your Zoom "
+"account before proceeding."
+msgstr ""
+
+#: class-fooevents.php:687
+msgid "Edit meeting"
+msgstr "Meeting bearbeiten"
+
+#: class-fooevents.php:688
+msgid "Edit webinar"
+msgstr "Webinar bearbeiten"
+
+#: class-fooevents.php:689 templates/product-event-settings.php:26
+msgid "Single"
+msgstr "Eintägig"
+
+#: class-fooevents.php:690 templates/product-event-settings.php:27
+msgid "Sequential days"
+msgstr "Mehrtägig"
+
+#: class-fooevents.php:691 templates/product-event-settings.php:28
+msgid "Select days"
+msgstr "Ausgewählte Tage"
+
+#: class-fooevents.php:692 templates/product-event-settings.php:29
+msgid "Bookable"
+msgstr "Buchbare Slots"
+
+#: class-fooevents.php:693 templates/global-settings.php:21
+#: templates/product-event-settings.php:30
+msgid "Seating"
+msgstr "Sitzplätze"
+
+#: class-fooevents.php:694 templates/product-event-settings.php:26
+msgid "Standard one-day events."
+msgstr "Standard eintätige Events"
+
+#: class-fooevents.php:695
+msgid ""
+"Events that occur over multiple days and repeat for a set number of "
+"sequential days."
+msgstr ""
+"Mehrtägige Events und wiederholte mehrtägige Events."
+
+#: class-fooevents.php:696
+msgid "Events that repeat over multiple calendar days."
+msgstr "Events, die sich an mehreren Tagen wiederholen."
+
+#: class-fooevents.php:697
+msgid ""
+"Events that require customers to select from available date and time slots "
+"(bookings and repeat events)."
+msgstr ""
+"Events, bei denen Kunden aus verfügbaren Tagen und Zeit Slots wählen"
+"(Buchung und Wiederholungen)."
+
+#: class-fooevents.php:698
+msgid ""
+"Events that include the ability for customers to select row and seat numbers "
+"from a seating chart."
+msgstr ""
+"Events mit der Möglichkeit für Kunden einen Sitzplat mit Reihe und Nummer "
+"auf einen Plan zu wählen."
+
+#: class-fooevents.php:699
+msgid "Refresh Example Info"
+msgstr "Beispielinformation neu laden"
+
+#: class-fooevents.php:701 classes/class-fooevents-zoom-api-helper.php:802
+msgid "hour"
+msgstr "Stunde"
+
+#: class-fooevents.php:703
+msgid "minute"
+msgstr "Minute"
+
+#: class-fooevents.php:704 classes/class-fooevents-zoom-api-helper.php:506
+msgid "Daily"
+msgstr "Täglich"
+
+#: class-fooevents.php:912 classes/class-fooevents-ticket-helper.php:137
+msgid "FooEvents"
+msgstr "FooEvents"
+
+#: class-fooevents.php:920 class-fooevents.php:1289
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: class-fooevents.php:921 class-fooevents.php:1292
+msgid "Getting Started"
+msgstr "Erste Schritte"
+
+#: class-fooevents.php:922
+msgid "Import Check-ins"
+msgstr "Check-Ins importieren"
+
+#: class-fooevents.php:1059
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Du hast keine ausreichende Berechtigung, um auf diese Seite "
+"zugreifen zu können."
+
+#: class-fooevents.php:1238
+msgid "FooEvents Introduction"
+msgstr "FooEvents Einführung"
+
+#: class-fooevents.php:1277
+msgid "FooEvents Check-ins Import"
+msgstr "FooEvents Check-ins Import"
+
+#: class-fooevents.php:1277
+msgid ""
+"Import check-ins that were performed while using the FooEvents Check-ins app "
+"in offline mode."
+msgstr ""
+"Importiere Check-Ins, die mit der FooEvents Check-Ins App im Offline Modus "
+"durchgeführt wurden."
+
+#: class-fooevents.php:1354 templates/global-settings.php:168
+msgid "Book ticket"
+msgstr "Ticket buchen"
+
+#: class-fooevents.php:1812 classes/class-fooevents-ticket-helper.php:2235
+#: classes/class-fooevents-woo-helper.php:402
+#: classes/class-fooevents-woo-helper.php:3419
+#: classes/class-fooevents-zoom-api-helper.php:1394
+#: templates/global-settings.php:178
+msgid "Day"
+msgstr "Tag"
+
+#: classes/class-events-list-table.php:62
+msgid "ID"
+msgstr "ID"
+
+#: classes/class-events-list-table.php:63
+msgid "Event Name"
+msgstr "Event Name"
+
+#: classes/class-events-list-table.php:64 templates/reports-report-page.php:97
+msgid "Tickets Sold"
+msgstr "Verkaufte Tickets"
+
+#: classes/class-events-list-table.php:65
+msgid "Available Tickets"
+msgstr "Verfügbare Tickets"
+
+#: classes/class-events-list-table.php:66 templates/reports-report-page.php:57
+#: templates/reports-report-page.php:89
+msgid "Gross Revenue"
+msgstr "Umsatz"
+
+#: classes/class-events-list-table.php:157
+#: templates/tickets-add-ticket-event-details.php:83
+#: templates/tickets-edit-ticket.php:120
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: classes/class-fooevents-checkout-helper.php:108
+#: classes/class-fooevents-ticket-helper.php:187
+#: templates/global-settings.php:158
+msgid "Attendee"
+msgstr "Teilnehmer/-in"
+
+#: classes/class-fooevents-checkout-helper.php:113
+#, php-format
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: classes/class-fooevents-checkout-helper.php:174
+#: templates/global-settings.php:188
+msgid "Copy"
+msgstr "Kopieren"
+
+#: classes/class-fooevents-checkout-helper.php:198
+msgid "First Name"
+msgstr "Vorname"
+
+#: classes/class-fooevents-checkout-helper.php:218
+msgid "Last Name"
+msgstr "Nachname"
+
+#: classes/class-fooevents-checkout-helper.php:238
+#: templates/order-new-order-email-ticket-details.php:71
+msgid "Email"
+msgstr "Email"
+
+#: classes/class-fooevents-checkout-helper.php:260
+msgid "Telephone"
+msgstr "Telefon"
+
+#: classes/class-fooevents-checkout-helper.php:284
+msgid "Company"
+msgstr "Unternehmen"
+
+#: classes/class-fooevents-checkout-helper.php:308
+msgid "Designation"
+msgstr "Anrede"
+
+#: classes/class-fooevents-checkout-helper.php:558
+#, php-format
+msgid "Name is required for %1$s attendee %2$d"
+msgstr "Vorname ist Pflicht für %1$s Teilnehmer %2$d"
+
+#: classes/class-fooevents-checkout-helper.php:566
+#, php-format
+msgid "Last name is required for %1$s attendee %2$d"
+msgstr "Nachname ist Pflicht für %1$s Teilnehmer %2$d"
+
+#: classes/class-fooevents-checkout-helper.php:574
+#, php-format
+msgid "Email is required for %1$s attendee %2$d"
+msgstr "Email ist Pflicht für %1$s Teilnehmer %2$d"
+
+#: classes/class-fooevents-checkout-helper.php:590
+#, php-format
+msgid "Telephone is required for %1$s attendee %2$d"
+msgstr "Telefon ist Pflicht für %1$s Teilnehmer %2$d"
+
+#: classes/class-fooevents-checkout-helper.php:600
+#, php-format
+msgid "Company is required for %1$s attendee %2$d"
+msgstr "Unternehmen ist Pflicht für %1$s Teilnehmer %2$d"
+
+#: classes/class-fooevents-checkout-helper.php:610
+#, php-format
+msgid "Designation is required for %1$s attendee %2$d"
+msgstr "Anrede ist Pflicht für %1$s Teilnehmer %2$d"
+
+#: classes/class-fooevents-checkout-helper.php:619
+#, php-format
+msgid "Email is not valid for %1$s attendee %2$d"
+msgstr "Email ist nicht gültig für %1$s Teilnehmer %2$d"
+
+#: classes/class-fooevents-checkout-helper.php:668
+#, php-format
+msgid ""
+"All attendee email addresses that are used to register for %s must be unique"
+msgstr ""
+"Jede Teilnehmer Email Adressen darf bei der Registrierung für %s "
+"nur einmal verwendet werden"
+
+#: classes/class-fooevents-event-report-helper.php:59
+msgid "Reports"
+msgstr "Reports"
+
+#: classes/class-fooevents-event-report-helper.php:60
+msgid "Report"
+msgstr "Report"
+
+#: classes/class-fooevents-orders-helper.php:65
+#: templates/tickets-add-ticket.php:57
+msgid "Attendee Details"
+msgstr "Teilnehmer Details"
+
+#: classes/class-fooevents-orders-helper.php:377
+#: classes/class-fooevents-ticket-helper.php:2329
+msgid "Slot"
+msgstr "Slot"
+
+#: classes/class-fooevents-theme-helper.php:127
+msgid "Theme already exists."
+msgstr "Theme existiert bereits"
+
+#: classes/class-fooevents-theme-helper.php:148
+msgid "Theme has been uploaded."
+msgstr "Theme wurde hochgeladen."
+
+#: classes/class-fooevents-theme-helper.php:152
+msgid "File does not contain valid theme files."
+msgstr "Datei enthält keine gültigen Theme Dateien."
+
+#: classes/class-fooevents-theme-helper.php:163
+msgid "Please upload valid .zip file"
+msgstr "Bitte lade eine gültige .zip Datei hoch"
+
+#: classes/class-fooevents-theme-helper.php:193
+msgid "Preview ticket has been sent"
+msgstr "Vorschau Ticket wurde versendet"
+
+#: classes/class-fooevents-theme-helper.php:218
+msgid "Local Stadium"
+msgstr "Local Stadium"
+
+#: classes/class-fooevents-theme-helper.php:237
+msgid "Preview Event"
+msgstr "Event Vorschau anzeigen"
+
+#: classes/class-fooevents-theme-helper.php:245
+msgid "John"
+msgstr "Max"
+
+#: classes/class-fooevents-theme-helper.php:246
+msgid "Doe"
+msgstr "Mustermann"
+
+#: classes/class-fooevents-ticket-helper.php:125
+#: classes/class-fooevents-ticket-helper.php:131
+#: templates/reports-report-page.php:62
+msgid "Tickets"
+msgstr "Tickets"
+
+#: classes/class-fooevents-ticket-helper.php:126
+msgid "Ticket"
+msgstr "Ticket"
+
+#: classes/class-fooevents-ticket-helper.php:127
+msgid "Add New"
+msgstr "Neu hinzufügen"
+
+#: classes/class-fooevents-ticket-helper.php:128
+msgid "Add New Ticket"
+msgstr "Neues Ticket hinzufügen"
+
+#: classes/class-fooevents-ticket-helper.php:129
+msgid "Edit Ticket"
+msgstr "Ticket bearbeiten"
+
+#: classes/class-fooevents-ticket-helper.php:130
+msgid "New Ticket"
+msgstr "Neues Ticket"
+
+#: classes/class-fooevents-ticket-helper.php:132
+msgid "View Ticket"
+msgstr "Ticket anzeigen"
+
+#: classes/class-fooevents-ticket-helper.php:133
+msgid "Search Tickets"
+msgstr "Ticket suchen"
+
+#: classes/class-fooevents-ticket-helper.php:134
+msgid "No tickets found"
+msgstr "Keine Tickets gefunden"
+
+#: classes/class-fooevents-ticket-helper.php:135
+msgid "No tickets found in the Trash"
+msgstr "Keine Tickets im Papierkorb gefunden"
+
+#: classes/class-fooevents-ticket-helper.php:142
+msgid "Event Tickets"
+msgstr "Event Tickets"
+
+#: classes/class-fooevents-ticket-helper.php:182
+msgid "Select"
+msgstr "Auswählen"
+
+#: classes/class-fooevents-ticket-helper.php:183
+msgid "Title"
+msgstr "Titel"
+
+#: classes/class-fooevents-ticket-helper.php:184
+msgid "Order"
+msgstr "Bestellung"
+
+#: classes/class-fooevents-ticket-helper.php:185
+#: classes/class-fooevents-ticket-helper.php:444
+#: templates/global-settings.php:148
+msgid "Event"
+msgstr "Event"
+
+#: classes/class-fooevents-ticket-helper.php:186
+msgid "Purchaser"
+msgstr "Käufer"
+
+#: classes/class-fooevents-ticket-helper.php:188
+msgid "Purchase Date"
+msgstr "Kaufdatum"
+
+#: classes/class-fooevents-ticket-helper.php:192
+msgid "Bookings"
+msgstr "Buchungen"
+
+#: classes/class-fooevents-ticket-helper.php:196
+msgid "Status"
+msgstr "Status"
+
+#: classes/class-fooevents-ticket-helper.php:240
+msgid "Warning: WooCommerce order has been deleted"
+msgstr "Warnung: WooCommerce Bestellung wurde gelöscht"
+
+#: classes/class-fooevents-ticket-helper.php:404
+#: templates/order-new-order-email-ticket-details.php:22
+msgid "Ticket Details"
+msgstr "Ticket Details"
+
+#: classes/class-fooevents-ticket-helper.php:413
+msgid "Access Log"
+msgstr "Zugriffsprotokoll"
+
+#: classes/class-fooevents-ticket-helper.php:422
+#: classes/class-fooevents-woo-helper.php:2769
+msgid "Ticket Status"
+msgstr "Ticket Status"
+
+#: classes/class-fooevents-ticket-helper.php:431
+msgid "Resend Ticket"
+msgstr "Ticket erneut senden"
+
+#: classes/class-fooevents-ticket-helper.php:847
+#: classes/class-fooevents-ticket-helper.php:848
+msgid "Resend Tickets"
+msgstr "Tickets erneut senden"
+
+#: classes/class-fooevents-ticket-helper.php:1108
+msgid "Security check failed - FooEvents 0001"
+msgstr "Sicherheitsprüfung fehlgeschlagen - FooEvents 0001"
+
+#: classes/class-fooevents-ticket-helper.php:1165
+#: classes/class-fooevents-ticket-helper.php:1333
+msgid "Attendee first name is required."
+msgstr "Teilnehmer Vorname wird benötigt."
+
+#: classes/class-fooevents-ticket-helper.php:1180
+#: classes/class-fooevents-ticket-helper.php:1348
+msgid "Attendee last name is required."
+msgstr "Teilnehmer Nachname wird benötigt."
+
+#: classes/class-fooevents-ticket-helper.php:1195
+#: classes/class-fooevents-ticket-helper.php:1303
+msgid "Purchaser email is required."
+msgstr "Käufer Email wird benötigt."
+
+#: classes/class-fooevents-ticket-helper.php:1273
+msgid "Event is required."
+msgstr "Event wird benötigt."
+
+#: classes/class-fooevents-ticket-helper.php:1288
+msgid "Purchaser username is required."
+msgstr "Käufer Benutzername wird benötigt."
+
+#: classes/class-fooevents-ticket-helper.php:1318
+msgid "Purchaser first name is required."
+msgstr "Käufer Vorname wird benötigt."
+
+#: classes/class-fooevents-ticket-helper.php:1363
+msgid "Attendee email is required."
+msgstr "Teilnehmer Email wird benötigt."
+
+#: classes/class-fooevents-ticket-helper.php:1383
+msgid "User email address already exists."
+msgstr "Benutzer Email Adresse existiert bereits."
+
+#: classes/class-fooevents-ticket-helper.php:1398
+msgid "User display name already exists."
+msgstr "Benutzername existiert bereits."
+
+#: classes/class-fooevents-ticket-helper.php:1933
+#: classes/class-fooevents-woo-helper.php:348
+#: classes/class-fooevents-woo-helper.php:2206
+msgid "{OrderNumber} Ticket"
+msgstr "{OrderNumber} Ticket"
+
+#: classes/class-fooevents-woo-helper.php:134
+msgid ""
+"WooCommerce is required for FooEvents. Please install and activate the "
+"latest version of WooCommerce."
+msgstr ""
+"WooCommerce wird für FooEvents benötigt. Bitte installiere und aktiviere "
+"die neueste Version von WooCommerce."
+
+#: classes/class-fooevents-woo-helper.php:145
+#: templates/product-event-settings.php:11 templates/reports-report-page.php:14
+msgid "Event Settings"
+msgstr "Event Einstellungen"
+
+#: classes/class-fooevents-woo-helper.php:560
+msgid "Event Integration"
+msgstr "Event Integration"
+
+#: classes/class-fooevents-woo-helper.php:569
+#: templates/product-event-expiration-settings.php:11
+msgid "Event Expiration"
+msgstr "Event Gültigkeit"
+
+#: classes/class-fooevents-woo-helper.php:578
+#: templates/product-event-export-settings.php:11
+msgid "Event Export"
+msgstr "Event Export"
+
+#: classes/class-fooevents-woo-helper.php:587
+#: templates/product-event-printing-settings.php:11
+msgid "Stationery Builder"
+msgstr "Briefpapier Konfigurator"
+
+#: classes/class-fooevents-woo-helper.php:596
+#: templates/product-event-terminology-settings.php:12
+msgid "Event Terminology"
+msgstr "Event Terminologie"
+
+#: classes/class-fooevents-woo-helper.php:606
+#: templates/product-ticket-settings.php:11
+msgid "Ticket Settings"
+msgstr "Ticket Einstellungen"
+
+#: classes/class-fooevents-woo-helper.php:1907 templates/event-tab.php:10
+#: templates/tickets-add-ticket.php:13
+msgid "Event Details"
+msgstr "Event Details"
+
+#: classes/class-fooevents-woo-helper.php:2649
+msgid "Sort by event date: Old to New"
+msgstr "Nach Event Datum sortieren: Älteste zuerst"
+
+#: classes/class-fooevents-woo-helper.php:2650
+msgid "Sort by event date: New to Old"
+msgstr "Nach Event Datum sortieren: Neueste zuerst"
+
+#: classes/class-fooevents-woo-helper.php:2764
+msgid "TicketID"
+msgstr "TicketID"
+
+#: classes/class-fooevents-woo-helper.php:2765
+msgid "OrderID"
+msgstr "Bestellnummer"
+
+#: classes/class-fooevents-woo-helper.php:2766
+msgid "Attendee First Name"
+msgstr "Teilnehmer Vorname"
+
+#: classes/class-fooevents-woo-helper.php:2767
+msgid "Attendee Last Name"
+msgstr "Teilnehmer Nachname"
+
+#: classes/class-fooevents-woo-helper.php:2768
+#: classes/class-fooevents-woo-helper.php:3924
+#: templates/product-event-printing-settings.php:256
+msgid "Attendee Email"
+msgstr "Teilnehmer Email"
+
+#: classes/class-fooevents-woo-helper.php:2770
+msgid "Ticket Type"
+msgstr "Ticket Typ"
+
+#: classes/class-fooevents-woo-helper.php:2771
+#: templates/tickets-edit-ticket.php:62
+msgid "Variation"
+msgstr "Varianten"
+
+#: classes/class-fooevents-woo-helper.php:2772
+msgid "Attendee Telephone"
+msgstr "Teilnehmer Telefon"
+
+#: classes/class-fooevents-woo-helper.php:2773
+#: classes/class-fooevents-woo-helper.php:3928
+#: templates/product-event-printing-settings.php:286
+msgid "Attendee Company"
+msgstr "Teilnehmer Unternehmen"
+
+#: classes/class-fooevents-woo-helper.php:2774
+#: classes/class-fooevents-woo-helper.php:3930
+#: templates/product-event-printing-settings.php:301
+msgid "Attendee Designation"
+msgstr "Teilnehmer Anrede"
+
+#: classes/class-fooevents-woo-helper.php:2775
+msgid "Purchaser First Name"
+msgstr "Käufer Vorname"
+
+#: classes/class-fooevents-woo-helper.php:2776
+msgid "Purchaser Last Name"
+msgstr "Käufer Nachname"
+
+#: classes/class-fooevents-woo-helper.php:2777
+msgid "Purchaser Email"
+msgstr "Käufer Email"
+
+#: classes/class-fooevents-woo-helper.php:2778
+msgid "Purchaser Phone"
+msgstr "Käufer Telefon"
+
+#: classes/class-fooevents-woo-helper.php:2779
+msgid "Purchaser Company"
+msgstr "Käufer Unternehmen"
+
+#: classes/class-fooevents-woo-helper.php:2780
+msgid "Customer Note"
+msgstr "Kunden Hinweis"
+
+#: classes/class-fooevents-woo-helper.php:2990
+msgid "Billing Address 1"
+msgstr "Rechnung Adresse 1"
+
+#: classes/class-fooevents-woo-helper.php:2991
+msgid "Billing Address 2"
+msgstr "Rechnung Adresse 2"
+
+#: classes/class-fooevents-woo-helper.php:2992
+msgid "Billing City"
+msgstr "Rechnung Stadt"
+
+#: classes/class-fooevents-woo-helper.php:2993
+msgid "Billing Postal Code"
+msgstr "Rechnung Postleitzahl"
+
+#: classes/class-fooevents-woo-helper.php:2994
+msgid "Billing Country"
+msgstr "Rechnung Land"
+
+#: classes/class-fooevents-woo-helper.php:2995
+msgid "Billing State"
+msgstr "Rechnung Bundesland"
+
+#: classes/class-fooevents-woo-helper.php:2996
+msgid "Billing Phone"
+msgstr "Rechnung Telefon"
+
+#: classes/class-fooevents-woo-helper.php:3363
+msgid "No tickets found."
+msgstr "Keine Tickets gefunden."
+
+#: classes/class-fooevents-woo-helper.php:3423
+msgid "Check-in "
+msgstr "Check-in "
+
+#: classes/class-fooevents-woo-helper.php:3424
+msgid "Check-out "
+msgstr "Check-out "
+
+#: classes/class-fooevents-woo-helper.php:3910
+#: templates/product-event-printing-settings.php:215
+msgid "Barcode"
+msgstr "Barcode"
+
+#: classes/class-fooevents-woo-helper.php:3912
+#: templates/product-event-printing-settings.php:110
+msgid "Logo/Image"
+msgstr "Logo/Bild"
+
+#: classes/class-fooevents-woo-helper.php:3914
+#: templates/product-event-printing-settings.php:151
+msgid "Event Name Only"
+msgstr "Nur Event Name"
+
+#: classes/class-fooevents-woo-helper.php:3916
+#: templates/product-event-printing-settings.php:166
+msgid "Event Name/Variation"
+msgstr "Event Name/Variante"
+
+#: classes/class-fooevents-woo-helper.php:3918
+#: templates/product-event-printing-settings.php:181
+msgid "Variation Only"
+msgstr "Nur Variante"
+
+#: classes/class-fooevents-woo-helper.php:3920
+#: templates/product-event-printing-settings.php:222
+msgid "Ticket Number"
+msgstr "Ticket Nummer"
+
+#: classes/class-fooevents-woo-helper.php:3922
+#: templates/product-event-printing-settings.php:241
+msgid "Attendee Name"
+msgstr "Teilnehmer Name"
+
+#: classes/class-fooevents-woo-helper.php:3926
+#: templates/product-event-printing-settings.php:271
+msgid "Attendee Phone"
+msgstr "Teilnehmer Telefon"
+
+#: classes/class-fooevents-woo-helper.php:3932
+#: templates/product-event-printing-settings.php:316
+msgid "Attendee Seat"
+msgstr "Teilnehmer Sitzplatz"
+
+#: classes/class-fooevents-woo-helper.php:3934
+#: templates/product-event-printing-settings.php:196
+msgid "Event Location"
+msgstr "Event Ort"
+
+#: classes/class-fooevents-woo-helper.php:3936
+#: templates/product-event-printing-settings.php:124
+msgid "Custom Text"
+msgstr "Eigener Text"
+
+#: classes/class-fooevents-woo-helper.php:3938
+#: templates/product-event-printing-settings.php:140
+msgid "Empty Spacer"
+msgstr "Platzhalter"
+
+#: classes/class-fooevents-zoom-api-helper.php:109
+msgid ""
+"Error generating JSON Web Token (JWT) using the provided Zoom API Key and "
+"API Secret."
+msgstr ""
+"Fehler bei der Generierung des JSON Web Token (JWT) mit dem Zoom API Key und "
+"API Secret."
+
+#: classes/class-fooevents-zoom-api-helper.php:139
+msgid "Unable to connect to your Zoom account"
+msgstr "Verbindung zu deinem Zoom Konto nicht möglich"
+
+#: classes/class-fooevents-zoom-api-helper.php:183
+#: classes/class-fooevents-zoom-api-helper.php:233
+msgid "Please enter your Zoom API Key and API Secret"
+msgstr "Bitte gib deinen Zoom API Key und API Secret ein"
+
+#: classes/class-fooevents-zoom-api-helper.php:506
+#: classes/class-fooevents-zoom-api-helper.php:510
+#: classes/class-fooevents-zoom-api-helper.php:514
+msgid "Every"
+msgstr "Jede(n)"
+
+#: classes/class-fooevents-zoom-api-helper.php:510
+msgid "Weekly"
+msgstr "Wöchentlich"
+
+#: classes/class-fooevents-zoom-api-helper.php:514
+msgid "Monthly"
+msgstr "Monatlich"
+
+#: classes/class-fooevents-zoom-api-helper.php:514
+msgid "months"
+msgstr "Monate"
+
+#: classes/class-fooevents-zoom-api-helper.php:524
+msgid " on "
+msgstr " an "
+
+#: classes/class-fooevents-zoom-api-helper.php:532
+#: classes/class-fooevents-zoom-api-helper.php:609
+msgid "Sunday"
+msgstr "Sonntag"
+
+#: classes/class-fooevents-zoom-api-helper.php:536
+#: classes/class-fooevents-zoom-api-helper.php:613
+msgid "Monday"
+msgstr "Montag"
+
+#: classes/class-fooevents-zoom-api-helper.php:540
+#: classes/class-fooevents-zoom-api-helper.php:617
+msgid "Tuesday"
+msgstr "Dienstag"
+
+#: classes/class-fooevents-zoom-api-helper.php:544
+#: classes/class-fooevents-zoom-api-helper.php:621
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+#: classes/class-fooevents-zoom-api-helper.php:548
+#: classes/class-fooevents-zoom-api-helper.php:625
+msgid "Thursday"
+msgstr "Donnerstag"
+
+#: classes/class-fooevents-zoom-api-helper.php:552
+#: classes/class-fooevents-zoom-api-helper.php:629
+msgid "Friday"
+msgstr "Freitag"
+
+#: classes/class-fooevents-zoom-api-helper.php:556
+#: classes/class-fooevents-zoom-api-helper.php:633
+msgid "Saturday"
+msgstr "Samstag"
+
+#: classes/class-fooevents-zoom-api-helper.php:572
+msgid " on the "
+msgstr " am "
+
+#: classes/class-fooevents-zoom-api-helper.php:574
+msgid " of the month"
+msgstr " des Monats "
+
+#: classes/class-fooevents-zoom-api-helper.php:583
+msgid "on the last"
+msgstr "am Letzten"
+
+#: classes/class-fooevents-zoom-api-helper.php:587
+msgid "on the first"
+msgstr "am Ersten"
+
+#: classes/class-fooevents-zoom-api-helper.php:591
+msgid "on the second"
+msgstr "am Zweiten"
+
+#: classes/class-fooevents-zoom-api-helper.php:595
+msgid "on the third"
+msgstr "am Dritten"
+
+#: classes/class-fooevents-zoom-api-helper.php:599
+msgid "on the fourth"
+msgstr "am Vierten"
+
+#: classes/class-fooevents-zoom-api-helper.php:659
+msgid "until"
+msgstr "bis"
+
+#: classes/class-fooevents-zoom-api-helper.php:665
+msgid "occurrence"
+msgstr "Wiederholung"
+
+#: classes/class-fooevents-zoom-api-helper.php:665
+msgid "occurrences"
+msgstr "Wiederholungen"
+
+#: classes/class-fooevents-zoom-api-helper.php:1313
+msgid "Zoom Meeting"
+msgstr "Zoom Meeting"
+
+#: classes/class-fooevents-zoom-api-helper.php:1317
+msgid "Zoom Webinar"
+msgstr "Zoom Webinar"
+
+#: classes/class-fooevents-zoom-api-helper.php:1336
+#: classes/class-fooevents-zoom-api-helper.php:1445
+msgid "Meeting ID"
+msgstr "Meeting ID"
+
+#: classes/class-fooevents-zoom-api-helper.php:1340
+#: classes/class-fooevents-zoom-api-helper.php:1449
+msgid "Meeting password"
+msgstr "Meeting Passwort"
+
+#: classes/class-fooevents-zoom-api-helper.php:1345
+#: classes/class-fooevents-zoom-api-helper.php:1454
+msgid "Webinar ID"
+msgstr "Webinar ID"
+
+#: classes/class-fooevents-zoom-api-helper.php:1349
+#: classes/class-fooevents-zoom-api-helper.php:1457
+msgid "Webinar password"
+msgstr "Webinar Passwort"
+
+#: classes/class-fooevents-zoom-api-helper.php:1372
+#: classes/class-fooevents-zoom-api-helper.php:1479
+msgid "Join link"
+msgstr "Beitreten Link"
+
+#: classes/class-fooevents-zoom-api-helper.php:1376
+#: classes/class-fooevents-zoom-api-helper.php:1483
+msgid "Join this meeting"
+msgstr "Zum Meeting beitreten"
+
+#: classes/class-fooevents-zoom-api-helper.php:1376
+#: classes/class-fooevents-zoom-api-helper.php:1483
+msgid "Join this webinar"
+msgstr "Zum Webinar beitreten"
+
+#: classes/class-fooevents-zoom-api-helper.php:1404
+#: templates/global-settings.php:390
+msgid "Zoom Meetings and Webinars"
+msgstr "Zoom Meetings und Webinare"
+
+#: templates/email/ticket.php:119
+msgid "Add to calendar"
+msgstr "Zum Kalender hinzufügen"
+
+#: templates/email/ticket.php:157
+msgid "Ticket Number:"
+msgstr "Ticket Nummer:"
+
+#: templates/email/ticket.php:167
+msgid "Ticket Holder:"
+msgstr "Ticket Nutzer:"
+
+#: templates/email/ticket.php:178
+msgid "Telephone Number:"
+msgstr "Telefonnummer"
+
+#: templates/email/ticket.php:189
+#: templates/order-new-order-email-ticket-details.php:76
+#: templates/order-ticket-details-generated-tickets.php:78
+#: templates/order-ticket-details.php:73 templates/tickets-edit-ticket.php:38
+msgid "Company:"
+msgstr "Unternehmen"
+
+#: templates/email/ticket.php:200
+#: templates/order-new-order-email-ticket-details.php:79
+#: templates/order-ticket-details-generated-tickets.php:84
+#: templates/order-ticket-details.php:79 templates/tickets-add-ticket.php:79
+#: templates/tickets-edit-ticket.php:42
+msgid "Designation:"
+msgstr "Anrede"
+
+#: templates/email/ticket.php:225 templates/event-tab.php:61
+#, php-format
+msgid "%1$s %2$d: "
+msgstr "%1$s %2$d: "
+
+#: templates/email/ticket.php:298
+msgid "Ticket Type:"
+msgstr "Ticket Typ"
+
+#: templates/email/ticket.php:309
+msgid "Price:"
+msgstr "Preis"
+
+#: templates/email/ticket.php:365 templates/reports-report-page.php:47
+msgid "Location"
+msgstr "Ort"
+
+#: templates/email/ticket.php:383
+msgid "Directions"
+msgstr "Anfahrtsbeschreibung"
+
+#: templates/email/ticket.php:401
+msgid "Contact us for questions and concerns"
+msgstr "Kontaktiere uns bei Fragen und Anliegen"
+
+#: templates/email/ticket.php:466
+msgid "Powered by"
+msgstr "Powered by"
+
+#: templates/email/ticket.php:466
+msgid "FooEvents.com"
+msgstr "FooEvents.com"
+
+#: templates/event-tab.php:30 templates/product-event-settings.php:37
+msgid "Start date:"
+msgstr "Start Datum:"
+
+#: templates/event-tab.php:37
+#: templates/order-ticket-details-generated-tickets.php:117
+#: templates/order-ticket-details.php:112
+msgid "Date:"
+msgstr "Datum:"
+
+#: templates/event-tab.php:49
+msgid "End date:"
+msgstr "Ende Datum:"
+
+#: templates/event-tab.php:66 templates/product-event-settings.php:45
+msgid "Start time:"
+msgstr "Start Zeit:"
+
+#: templates/event-tab.php:69 templates/product-event-settings.php:68
+msgid "End time:"
+msgstr "Ende Zeit:"
+
+#: templates/event-tab.php:72
+#: templates/order-ticket-details-generated-tickets.php:129
+#: templates/order-ticket-details.php:124
+#: templates/product-event-settings.php:104
+msgid "Venue:"
+msgstr "Veranstaltungsort"
+
+#: templates/event-tab.php:75
+msgid "Coordinates:"
+msgstr "Koordinaten:"
+
+#: templates/event-tab.php:78 templates/product-event-settings.php:129
+msgid "Directions:"
+msgstr "Anfahrsbeschreibung:"
+
+#: templates/event-tab.php:81
+msgid "Phone:"
+msgstr "Telefon:"
+
+#: templates/event-tab.php:84
+#: templates/order-ticket-details-generated-tickets.php:66
+#: templates/order-ticket-details.php:60 templates/tickets-add-ticket.php:46
+#: templates/tickets-add-ticket.php:67 templates/tickets-edit-ticket.php:30
+msgid "Email:"
+msgstr "Email:"
+
+#: templates/fooevents-checkins-import.php:96
+msgid "Status is required"
+msgstr "Status wird benötigt"
+
+#: templates/fooevents-checkins-import.php:98
+msgid "Status updated"
+msgstr "Status aktualisiert"
+
+#: templates/fooevents-checkins-import.php:100
+msgid "Status unchanged"
+msgstr "Status unverändert"
+
+#: templates/fooevents-checkins-import.php:102
+msgid "Status not updated"
+msgstr "Status nicht aktualisiert"
+
+#: templates/fooevents-checkins-import.php:106
+msgid "Checked-in"
+msgstr "Eingecheckt"
+
+#: templates/fooevents-checkins-import.php:108
+msgid "Not checked-in"
+msgstr "Nicht eingecheckt"
+
+#: templates/fooevents-checkins-import.php:110
+msgid "Canceled"
+msgstr "Abgebrochen"
+
+#: templates/fooevents-checkins-import.php:112
+msgid "Unpaid"
+msgstr "Unbezahlt"
+
+#: templates/fooevents-checkins-import.php:178
+msgid "Importing, please wait..."
+msgstr "Import läuft, bitte warten ..."
+
+#: templates/global-settings.php:11
+msgid "FooEvents Settings"
+msgstr "FooEvents Einstellungen"
+
+#: templates/global-settings.php:13
+msgid "License"
+msgstr "Lizenz"
+
+#: templates/global-settings.php:14 templates/global-settings.php:58
+msgid "General"
+msgstr "Allgemein"
+
+#: templates/global-settings.php:15 templates/global-settings.php:138
+msgid "Terminology"
+msgstr "Terminologie"
+
+#: templates/global-settings.php:16 templates/global-settings.php:202
+msgid "Ticket Design"
+msgstr "Ticket Design"
+
+#: templates/global-settings.php:18
+msgid "PDF Tickets"
+msgstr "PDF Tickets"
+
+#: templates/global-settings.php:24
+msgid "Calendar"
+msgstr "Kalender"
+
+#: templates/global-settings.php:26 templates/global-settings.php:289
+msgid "Check-ins App"
+msgstr "Check-In App"
+
+#: templates/global-settings.php:27
+msgid "Integration"
+msgstr "Integration"
+
+#: templates/global-settings.php:35
+msgid "FooEvents License"
+msgstr "FooEvents Lizenz"
+
+#: templates/global-settings.php:40
+msgid "FooEvents license key"
+msgstr "FooEvents Lizenzschlüssel"
+
+#: templates/global-settings.php:43
+msgid ""
+"Required for automatic plugin updates. Leave empty if purchase was made on "
+"CodeCanyon.net AND no other plugin purchases were made on FooEvents.com. You "
+"must paste your license key here if any plugin purchases were made on "
+"FooEvents.com."
+msgstr ""
+"Wird für automatisch Plugin Updates benötigt. Leer lassen, falls der Kauf "
+"auf CodeCanyon.net getätigt wurde UND keine weiteren Plugin-Käufe auf FooEvents "
+"getätigt wurden. Du musst deinen Lizenzschlüssel hier einfügen, falls dein Kauf "
+"über FooEvents.com getätigt wurde."
+
+#: templates/global-settings.php:47
+msgid "Envato purchase code"
+msgstr "Envato Einkaufscode"
+
+#: templates/global-settings.php:50
+msgid ""
+"Required for automatic plugin updates. Leave empty if purchase was made on "
+"FooEvents.com AND no purchases were made on CodeCanyon.net. You must paste "
+"your Envato purchase code here if the FooEvents for WooCommerce plugin was "
+"purchased on CodeCanyon.net."
+msgstr ""
+"Wird für automatisch Plugin Updates benötigt. Leer lassen, falls der Kauf "
+"FooEvents.com getätigt wurde UND keine Käufe auf CodeCanyon.net getätigt wurden."
+"Du musst deinen Lizenzschlüssel hier einfügen, falls dein Kauf "
+"über FooEvents.com getätigt wurde."
+
+#: templates/global-settings.php:63
+msgid "Change add to cart text"
+msgstr "'Zum Warenkorb hinzufügen' Text ändern"
+
+#: templates/global-settings.php:66
+msgid ""
+"Changes 'Add to cart' text to 'Book ticket' for event products."
+msgstr ""
+"Ändert den 'Zum Warenkorb hinzufügen' Text nach 'Ticket buchen' für Event Produkte."
+
+#: templates/global-settings.php:70
+msgid "Enable event sorting options"
+msgstr "Optionen zur Event Sortierung einschalten"
+
+#: templates/global-settings.php:73
+msgid ""
+"Adds sort by date options to the WooCommerce product sorting drop-down list. "
+"You can set the default sort option in the WordPress Customizer."
+msgstr ""
+"Fügt die Option zur Sortierung nach Datum zu WooCommerce Produktsortierung "
+"Drop-Down Liste hinzu. Du kannst die Standard Option im WordPress Customizer setzen.
+
+#: templates/global-settings.php:77
+msgid "Display event date on product listings"
+msgstr "Event Datum in Produktlisten anzeigen"
+
+#: templates/global-settings.php:80
+msgid "Adds the event date above the product title on product listing pages."
+msgstr "Fügt das Event Datum über dem Produkt-Titel zu Produktlisten hinzu."
+
+#: templates/global-settings.php:84
+msgid "Hide event details tab"
+msgstr "Event Details Tab ausblenden"
+
+#: templates/global-settings.php:87
+msgid "Hides the event details tab on the product page."
+msgstr "Blendet den Events Details Tab auf der Produktseite aus."
+
+#: templates/global-settings.php:91
+msgid "Use placeholders on checkout form"
+msgstr "Platzhalter im Checkout Formular verwenden"
+
+#: templates/global-settings.php:94
+msgid ""
+"Displays placeholders in the checkout form (useful for themes that don't "
+"support form labels)."
+msgstr ""
+"Platzhalter im Checkout Formular anzeigen (nützlich für Themes, die keine "
+"Formular Labels unterstützen)."
+
+#: templates/global-settings.php:98 templates/global-settings.php:301
+msgid "Hide unpaid tickets"
+msgstr "Unbezahlte Tickets ausblenden"
+
+#: templates/global-settings.php:101
+msgid "Hides unpaid tickets in ticket admin."
+msgstr "Blendet unbezahlte Ticket im Ticket Admin aus."
+
+#: templates/global-settings.php:105
+msgid "Email copy of ticket to other recipients"
+msgstr "Kopie des Tickets an andere Empfänger senden"
+
+#: templates/global-settings.php:108
+msgid ""
+"Sends a copy of every ticket email to the specified email address. Use a "
+"comma separated list to send to multiple email addresses."
+msgstr ""
+"Sendet eine Kopie von jeder Ticket Email an die angegebene Email Adresse. "
+"Gib bei mehreren Email Adressen eine durch Komma getrennte Liste an."
+
+#: templates/global-settings.php:112
+msgid "Copy ticket purchaser's details"
+msgstr "Ticket Käufer Details kopieren"
+
+#: templates/global-settings.php:115
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: templates/global-settings.php:116
+msgid "Icon"
+msgstr "Icon"
+
+#: templates/global-settings.php:117
+msgid "Text"
+msgstr "Text"
+
+#: templates/global-settings.php:118
+msgid "Icon and Text"
+msgstr "Icon und Text"
+
+#: templates/global-settings.php:120
+msgid ""
+"Adds the option to copy across the ticket purchaser's details for the "
+"attendee's first name, last name and email address on the checkout page "
+"using either an icon, text, or icon and text visual prompt."
+msgstr ""
+"Fügt die Möglichkeit hinzu die Ticket Käufer Details in die Teilnehmer "
+"Details mit Vorname, Nachname und Email Adresse zu kopieren und dazu auf "
+"der Checkout Seite ein Icon, Text oder Icon mit Text anzuzeigen."
+
+#: templates/global-settings.php:124
+msgid "Event expiration method"
+msgstr "Event Ablauf Methode"
+
+#: templates/global-settings.php:127
+msgid "Disable purchase"
+msgstr "Kaufmöglichkeit abschalten"
+
+#: templates/global-settings.php:128
+msgid "Hide product"
+msgstr "Produkt ausblenden"
+
+#: templates/global-settings.php:130
+msgid ""
+"Disable the ability to purchase the ticket/product or hide it in page "
+"listings after the event has expired."
+msgstr ""
+"Möglichkeit das Produkt zu kaufen abschalten oder das Produkt ausblenden "
+"nachdem das Event nicht mehr gültig ist."
+
+#: templates/global-settings.php:144
+#: templates/product-event-terminology-settings.php:14
+msgid "Singular"
+msgstr "Singular"
+
+#: templates/global-settings.php:145
+#: templates/product-event-terminology-settings.php:15
+msgid "Plural"
+msgstr "Plural"
+
+#: templates/global-settings.php:154
+msgid "Change 'event' to your own custom text."
+msgstr "Ändere 'Event' zu deinem eigenen Text."
+
+#: templates/global-settings.php:164
+msgid "Change 'attendee' to your own custom text."
+msgstr "Ändere 'Teilnehmer' zu deinem eigenen Text."
+
+#: templates/global-settings.php:174
+msgid "Change 'Book ticket' to your own custom text."
+msgstr "Ändere 'Ticket buchen' zu deinem eigenen Text."
+
+#: templates/global-settings.php:184 templates/global-settings.php:194
+msgid "Change 'Copy' to your own custom text."
+msgstr "Ändere 'Kopieren' zu deinem eigenen Text."
+
+#: templates/global-settings.php:207
+msgid "Global ticket border"
+msgstr "Globaler Ticket Rahmen"
+
+#: templates/global-settings.php:210
+msgid "Color of the ticket border."
+msgstr "Farbe des Ticket Rahmen."
+
+#: templates/global-settings.php:214
+msgid "Global ticket button"
+msgstr "Globaler Ticket Button"
+
+#: templates/global-settings.php:217 templates/product-ticket-settings.php:79
+msgid "Color of the ticket button."
+msgstr "Farbe des Ticket Buttons."
+
+#: templates/global-settings.php:221
+msgid "Global ticket button text"
+msgstr "Globaler Ticket Button Text"
+
+#: templates/global-settings.php:224
+msgid "Color of the text in the ticket button."
+msgstr "Farbe des Textes auf dem Ticket Button."
+
+#: templates/global-settings.php:228
+msgid "Global ticket logo"
+msgstr "Gobales Ticket Logo"
+
+#: templates/global-settings.php:233 templates/global-settings.php:244
+#: templates/global-settings.php:320
+#: templates/product-event-printing-settings.php:68
+#: templates/product-event-printing-settings.php:118
+#: templates/product-event-printing-settings.php:395
+#: templates/product-event-printing-settings.php:431
+#: templates/product-event-printing-settings.php:467
+#: templates/product-event-printing-settings.php:505
+#: templates/product-event-printing-settings.php:541
+#: templates/product-event-printing-settings.php:577
+#: templates/product-event-printing-settings.php:615
+#: templates/product-event-printing-settings.php:651
+#: templates/product-event-printing-settings.php:687
+#: templates/product-ticket-settings.php:31
+#: templates/product-ticket-settings.php:43
+msgid "Clear"
+msgstr "Entfernen"
+
+#: templates/global-settings.php:234
+msgid "Full URL that links to the logo that will be used in the ticket."
+msgstr "Vollständige URL zum Logo für Tickets."
+
+#: templates/global-settings.php:239
+msgid "Global ticket header image"
+msgstr "Globales Ticket Header Bild"
+
+#: templates/global-settings.php:245
+msgid ""
+"Full URL that links to the image that will be used as the ticket header."
+msgstr ""
+"Vollständige URL zum Bild für den Ticket Header."
+
+#: templates/global-settings.php:250
+msgid "Enable QR codes"
+msgstr "QR Codes einschalten"
+
+#: templates/global-settings.php:254
+msgid "Use QR codes instead of 1D barcodes on tickets."
+msgstr "QR Codes an Stelle von 1D Barcodes auf Tickets verwenden."
+
+#: templates/global-settings.php:258
+msgid "QR/Barcode image format"
+msgstr "QR/Barcode Bild Format"
+
+#: templates/global-settings.php:261
+msgid "PNG"
+msgstr "PNG"
+
+#: templates/global-settings.php:262
+msgid "PNG and JPG"
+msgstr "PNG und JPG"
+
+#: templates/global-settings.php:264
+msgid ""
+"Select the preferred image format for 1D barcodes and QR codes that are "
+"generated for tickets. PNG is the default format."
+msgstr ""
+"Wähle das bevorzugte Bild-Format für 1D Barcodes und QR Codes die für "
+"Tickets generiert werden. PNG ist das Standard Format."
+
+#: templates/global-settings.php:268
+msgid "Remove FooEvents footer link"
+msgstr "FooEvents Footer Link entfernen"
+
+#: templates/global-settings.php:271
+msgid ""
+"Removes the \"Powered by FooEvents.com\" link from the ticket email footer."
+msgstr ""
+"Entfernt den \"Powered by FooEvents.com\" Link aus dem Ticket Email Footer."
+
+#: templates/global-settings.php:294
+msgid "Hide personal information"
+msgstr "Persönliche Information ausblenden"
+
+#: templates/global-settings.php:297
+msgid ""
+"Hides all personal information for attendees and/or ticket purchasers in the "
+"app. Only attendee names will be visible for check-in purposes."
+msgstr ""
+"Blendet alle persönlichen Informationen der Teilnehmer und Ticket Käufer in "
+"der App aus. Nur der Teilnehmer Name bleibt für den Check-In sichtbar."
+
+#: templates/global-settings.php:304
+msgid "Hides all unpaid tickets in the app."
+msgstr "Alle unbezahlten Tickets in der App ausblenden."
+
+#: templates/global-settings.php:308
+msgid "App title"
+msgstr "App Titel"
+
+#: templates/global-settings.php:310
+msgid "e.g. Attendee Check-ins"
+msgstr "z.B. Teilnehmer Check-Ins"
+
+#: templates/global-settings.php:311
+msgid "The title that displays on the app sign-in screen beneath the app logo."
+msgstr "Der Titel, der in der App auf dem Bildschirm unter dem App Logo angezeigt wird."
+
+#: templates/global-settings.php:315
+msgid "App logo"
+msgstr "App Logo"
+
+#: templates/global-settings.php:321
+msgid ""
+"Full URL that links to the image that will be used as the logo on the sign-"
+"in screen (PNG format with transparency and a width of around 940px is "
+"recommended)."
+msgstr ""
+"Vollständige URL zum Bild, dass als Logo auf dem Check-In Bildschirm "
+"genutzt wird (PNG Format mit Transparenz und einer Breite von 940px wird "
+"empfohlen)."
+
+#: templates/global-settings.php:326
+msgid "Accent color"
+msgstr "Flächenfarbe"
+
+#: templates/global-settings.php:329
+msgid "Color of the top navigation bar and sign-in button."
+msgstr "Farbe der Top Navigationsleiste und Sign-In Button."
+
+#: templates/global-settings.php:333
+msgid "Accent text color"
+msgstr "Textfarbe"
+
+#: templates/global-settings.php:336
+msgid "Color of the text in the top navigation bar and sign-in button."
+msgstr "Textfarbe in der Top Navigationsleiste und des Sign-In Buttons."
+
+#: templates/global-settings.php:340
+msgid "Background color"
+msgstr "Hintergrundfarbe"
+
+#: templates/global-settings.php:343
+msgid "Color of the background on the sign-in screen."
+msgstr "Farbe des Hintergrundes auf dem Sign-In Bildschirm."
+
+#: templates/global-settings.php:347
+msgid "Title text color"
+msgstr "Titel Textfarbe"
+
+#: templates/global-settings.php:350
+msgid "Color of the title text beneath the logo on the sign-in screen."
+msgstr "Farbe des Titel Textes unter dem Logo auf dem Sign-In Bildschirm."
+
+#: templates/global-settings.php:354
+msgid "Event listing options"
+msgstr "Event Listenoptionen"
+
+#: templates/global-settings.php:356
+msgid "Show all events"
+msgstr "Zeige alle Events"
+
+#: templates/global-settings.php:357
+msgid ""
+"Manage how events are listed in the app. Changes can be made in real-time "
+"without the user needing to sign-out."
+msgstr ""
+"Legt fest wie Events in der App aufgelistet werden. Änderungen können direkt "
+"vorgenommen werden, ohne dass der Benutzer ausloggen muss."
+
+#: templates/global-settings.php:359
+msgid "Only show events created by the signed-in user"
+msgstr "Nur Events anzeigen, die vom eingeloggten Benutzer erstellt wurden"
+
+#: templates/global-settings.php:361
+msgid "Only show the following events:"
+msgstr "Nur die folgenden Events anzeigen:"
+
+#: templates/global-settings.php:380
+msgid "Google Maps"
+msgstr "Google Maps"
+
+#: templates/global-settings.php:383
+msgid "Google Maps API key"
+msgstr "Google Maps API Key"
+
+#: templates/global-settings.php:386
+msgid "Enable Google Maps to be displayed on the product page."
+msgstr "Google Maps Karte auf der Produktseite anzeigen."
+
+#: templates/global-settings.php:393
+msgid "API Key"
+msgstr "API Key"
+
+#: templates/global-settings.php:396 templates/global-settings.php:403
+msgid ""
+"Required to securely connect to your Zoom account in order to register "
+"attendees for your meetings/webinars."
+msgstr ""
+"Notwendig um sicher mit deinem Zoom Konto zu verbinden, um Teilnehmer "
+"zu deinem Meeting/Webinar zu registrieren."
+
+#: templates/global-settings.php:400
+msgid "API Secret"
+msgstr "API Secret"
+
+#: templates/global-settings.php:412
+msgid "Get help generating Zoom API keys"
+msgstr "Hinweise zur Generierung der Zoom API Keys"
+
+#: templates/global-settings.php:420
+msgid "Users/Hosts"
+msgstr "Benutzer/Veranstalter"
+
+#: templates/global-settings.php:423
+msgid ""
+"Displays meetings/webinars on the Event Integration tab according to which "
+"users created them so that they can be linked to specific events. The "
+"default setting will only display meetings/webinars for the user that "
+"generated the API Key and Secret. The second option is useful if you have "
+"multiple hosts on your Zoom account and you would like to restrict which "
+"meetings/webinars are visible (Hint: Shift-Click or Ctrl/Cmd+Click to select "
+"multiple hosts)."
+msgstr ""
+"Meetings/Webinare auf dem Event Integration Tab anzeigen abhängig vom Ersteller "
+"anzeigen, so dass mit dem passenden Event verlinkt werden können. Die Standard "
+"Einstellung zeigt nur Meetings/Webinare für den Benutzer, der die API Keys "
+"Generiert hat. Die zweite Option ist hilfreich wenn du mehrere Organisatoren in "
+"deinem Zoom Konto hast und beschränken möchtest, welche Meetings/Webinare "
+"sichtbar sind (Tip: Nutze Shift+Klick oder Strg/Cmd+Click um mehrere Organisatoren "
+"auszuwählen)."
+
+#: templates/global-settings.php:452
+msgid "Mailchimp"
+msgstr "Mailchimp"
+
+#: templates/global-settings.php:455
+msgid "API key"
+msgstr "API Key"
+
+#: templates/global-settings.php:459
+msgid "Connected"
+msgstr "Verbunden"
+
+#: templates/global-settings.php:461
+msgid "Not Connected"
+msgstr "Nicht verbunden"
+
+#: templates/global-settings.php:463
+msgid ""
+"Enables FooEvents to integrate with your Mailchimp account. Login to "
+"Mailchimp and navigate to \"Account\" > \"Extras\" > \"API keys\" to create "
+"or reuse an existing API key."
+msgstr ""
+"Verbindet FooEvents mit deinem MailChimp Konto. Melde dich bei MailChimp "
+"an und navigiere zu \"Account\" > \"Extras\" > \"API keys\" um einen neuen "
+"API Key zu erzeugen oder einen bestehenden zu verwenden."
+
+#: templates/global-settings.php:467
+msgid "Server prefix"
+msgstr "Server Prefix"
+
+#: templates/global-settings.php:470
+msgid ""
+"Login to your Mailchimp account and copy the parameter that comes "
+"immediately after \"https://\" in your web browser e.g. the server prefix is "
+"\"us19\" in https://us19.admin.mailchimp.com/"
+msgstr ""
+"Melde dich am MailChimp Konto an und kopiere das Wort, das direkt "
+"nach \"https://\" in deinem Web Browser kommt, z.B. lautet das Server Prefix "
+"\"us19\" in https://us19.admin.mailchimp.com/"
+
+#: templates/global-settings.php:475
+msgid "Default audience list"
+msgstr "Standard Audience Liste"
+
+#: templates/global-settings.php:483
+msgid ""
+"Select a default audience where you would like the attendees of all your "
+"events to be automatically added as contacts in Mailchimp. This can be "
+"overridden for each product (event) through the Event Integration settings. "
+"Note: The audience must first be setup in your Mailchimp account."
+msgstr ""
+"Wähle die Standard Audience zu der du deine Teilnehmer aus allen Events "
+"automatisch als Kontakte in MailChimp hinzufügen möchtest. Dies kann "
+"für jedes Event überschrieben werden in den Event Integration Einstellungen. "
+"Hinweis: Die Audience muss zuerst im MailChimp Konto aufgesetzt werden."
+
+#: templates/global-settings.php:487
+msgid "Default audience tags"
+msgstr "Standard Audience Tags"
+
+#: templates/global-settings.php:490
+msgid ""
+"Specify default audience tags as comma-separated values (,) which you would "
+"like to be associated with the attendees of all your events when they are "
+"automatically added as contacts in Mailchimp. This can be overridden for "
+"each product (event) through the Event Integration settings."
+msgstr ""
+"Lege die Standard Audience Tags als komma-getrennte Liste (,) fest, welche "
+"den Teilnehmern aller Events zugeordnet werden, wenn sie automatisch zu "
+"deinen MailChimp Kontakten hinzugefügt werden. Dies kann "
+"für jedes Event überschrieben werden in den Event Integration Einstellungen."
+
+#: templates/global-settings.php:497
+msgid "Get help generating Mailchimp API keys"
+msgstr "Hilfe zur Generierung der MailChimp API Keys"
+
+#: templates/global-settings.php:502
+msgid "WooCommerce Subscriptions"
+msgstr "WooCommerce Subscriptions"
+
+#: templates/global-settings.php:505
+msgid "Disable new ticket generation for subscription renewals"
+msgstr "Erneute Ticket Generierung bei Subscription Verlängerung abschalten"
+
+#: templates/global-settings.php:508
+msgid ""
+"Only create tickets on parent order completion. No tickets will be generated "
+"on order renewals."
+msgstr ""
+"Tickets nur für die Ursprungsbestellung generieren. Keine Tickets bei "
+"Verlängerung generieren."
+
+#: templates/order-new-order-email-ticket-details.php:57
+msgid "Day "
+msgstr "Tag"
+
+#: templates/order-new-order-email-ticket-details.php:70
+msgid "Name"
+msgstr "Name"
+
+#: templates/order-new-order-email-ticket-details.php:73
+#: templates/order-ticket-details-generated-tickets.php:72
+#: templates/order-ticket-details.php:67 templates/tickets-edit-ticket.php:34
+msgid "Telephone:"
+msgstr "Telefon"
+
+#: templates/order-new-order-email-ticket-details.php:83
+#: templates/order-new-order-email-ticket-details.php:84
+#: templates/order-ticket-details.php:30 templates/order-ticket-details.php:36
+#, php-format
+msgid "Booking %s"
+msgstr "Buchung %s"
+
+#: templates/order-new-order-email-ticket-details.php:88
+#: templates/order-ticket-details-generated-tickets.php:56
+#: templates/order-ticket-details.php:50
+msgid "Row:"
+msgstr "Reihe:"
+
+#: templates/order-new-order-email-ticket-details.php:89
+#: templates/order-ticket-details-generated-tickets.php:60
+#: templates/order-ticket-details.php:54
+msgid "Seat:"
+msgstr "Sitz:"
+
+#: templates/order-ticket-details-generated-tickets.php:12
+msgid "The following ticket/s have been generated for this order."
+msgstr "Die folgenden Tickets wurden für diese Bestellung generiert."
+
+#: templates/order-ticket-details-generated-tickets.php:48
+#: templates/order-ticket-details.php:42
+msgid "Zoom Meeting / Webinar"
+msgstr "Zoom Meeting / Webinar"
+
+#: templates/order-ticket-details-generated-tickets.php:123
+#: templates/order-ticket-details.php:118 templates/tickets-edit-ticket.php:94
+msgid "Time:"
+msgstr "Zeit:"
+
+#: templates/order-ticket-details-generated-tickets.php:135
+#: templates/order-ticket-details.php:130
+#: templates/tickets-add-ticket-event-details.php:74
+#: templates/tickets-edit-ticket.php:111
+msgid "Zoom Meetings / Webinars: "
+msgstr "Zoom Meetings / Webinars: "
+
+#: templates/order-ticket-details.php:12
+msgid "Tickets will only be generated when the order is changed to 'Completed'"
+msgstr "Tickets werden nur generiert, wenn der Bestellstatus zu 'Abgeschlossen' wechselt"
+
+#: templates/plugin-introduction.php:17
+msgid "Welcome to FooEvents for WooCommerce"
+msgstr "Willkommen bei FooEvents für WooCommerce"
+
+#: templates/plugin-introduction.php:20 templates/plugin-introduction.php:89
+#: templates/plugin-introduction.php:119 templates/plugin-introduction.php:149
+#: templates/plugin-introduction.php:179 templates/plugin-introduction.php:211
+#: templates/plugin-introduction.php:243
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: templates/plugin-introduction.php:21
+msgid "Frequently Asked Questions"
+msgstr "Häufig gestellte Fragen"
+
+#: templates/plugin-introduction.php:24
+msgid "Thank you for purchasing FooEvents for WooCommerce!"
+msgstr "Vielen Dank, dass du FooEvents für WooCommerce gekauft hast!"
+
+#: templates/plugin-introduction.php:26
+msgid ""
+"FooEvents works great out of the box without any custom configuration, "
+"however, if you would like to configure FooEvents based on your specific "
+"event requirements, you can find out more about how to do this by visiting "
+"our"
+msgstr ""
+
+#: templates/plugin-introduction.php:26
+msgid "help documentation"
+msgstr ""
+
+#: templates/plugin-introduction.php:31
+msgid "Next Steps"
+msgstr "Nächste Schritte"
+
+#: templates/plugin-introduction.php:33
+msgid "Configure the FooEvents global settings (optional)"
+msgstr "Konfiguriere die globalen Einstellungen von FooEvents (optional)"
+
+#: templates/plugin-introduction.php:34
+msgid "Setup your first event"
+msgstr "Erstelle dein erstes Event"
+
+#: templates/plugin-introduction.php:35
+msgid "Customize your email tickets using Ticket Themes"
+msgstr "Passe deine Email Tickets mit Ticket Themes an"
+
+#: templates/plugin-introduction.php:36
+msgid "Install the free FooEvents Check-ins Apps"
+msgstr "Installiere die kostenlose FooEvents Check-Ins App"
+
+#: templates/plugin-introduction.php:37
+msgid "Sell tickets at your event with FooSales"
+msgstr "Verkaufe Tickets während dem Event mit FooSales"
+
+#: templates/plugin-introduction.php:42
+msgid "Helpful Resources"
+msgstr ""
+
+#: templates/plugin-introduction.php:44
+msgid ""
+"How to create different ticket types in FooEvents using WooCommerce "
+"variations and attributes"
+msgstr ""
+
+#: templates/plugin-introduction.php:45
+msgid "How to create reoccurring events using FooEvents Multi-day plugin"
+msgstr ""
+
+#: templates/plugin-introduction.php:46
+msgid "Get creative with FooEvents Ticket Themes"
+msgstr ""
+
+#: templates/plugin-introduction.php:47
+msgid "Speed up your WooCommerce Website"
+msgstr ""
+
+#: templates/plugin-introduction.php:48
+msgid "FooEvents Demo"
+msgstr "FooEvents Demo"
+
+#: templates/plugin-introduction.php:54
+msgid "FooEvents Extensions"
+msgstr "FooEvents Erweiterungen"
+
+#: templates/plugin-introduction.php:56
+msgid ""
+"The following extensions add various advanced features to the FooEvents for "
+"WooCommerce plugin. They can be purchased separately or as part of our "
+"popular"
+msgstr ""
+
+#: templates/plugin-introduction.php:56
+msgid "bundles"
+msgstr "Bundels"
+
+#: templates/plugin-introduction.php:56
+msgid "If you would like to upgrade to a bundle, please"
+msgstr ""
+
+#: templates/plugin-introduction.php:56
+msgid "contact us"
+msgstr ""
+
+#: templates/plugin-introduction.php:56
+msgid "and we will gladly assist"
+msgstr ""
+
+#: templates/plugin-introduction.php:73 templates/plugin-introduction.php:74
+msgid "FooEvents Custom Attendee Fields"
+msgstr ""
+
+#: templates/plugin-introduction.php:75
+msgid ""
+"Capture customized attendee fields at checkout and tailor FooEvents "
+"according to your unique event requirements."
+msgstr ""
+
+#: templates/plugin-introduction.php:76 templates/plugin-introduction.php:107
+#: templates/plugin-introduction.php:137 templates/plugin-introduction.php:167
+#: templates/plugin-introduction.php:199 templates/plugin-introduction.php:231
+msgid "Status:"
+msgstr "Status:"
+
+#: templates/plugin-introduction.php:104 templates/plugin-introduction.php:105
+msgid "FooEvents Seating"
+msgstr "FooEvents Sitzplätze"
+
+#: templates/plugin-introduction.php:106
+msgid ""
+"The FooEvents Seating plugin is an extension for FooEvents that allows your "
+"guests or attendees to select their seats at checkout based on the layout of "
+"your venue."
+msgstr ""
+
+#: templates/plugin-introduction.php:134 templates/plugin-introduction.php:135
+msgid "FooEvents Multi-day"
+msgstr ""
+
+#: templates/plugin-introduction.php:136
+msgid ""
+"The FooEvents Multi-day plugin adds support for events that run over "
+"multiple days such as concerts, conferences and exhibitions."
+msgstr ""
+
+#: templates/plugin-introduction.php:164 templates/plugin-introduction.php:165
+msgid "FooEvents PDF Tickets Plugin"
+msgstr ""
+
+#: templates/plugin-introduction.php:166
+msgid ""
+"The FooEvents PDF Tickets plugin attaches event tickets as PDF files to the "
+"email that is sent to the attendee or ticket purchaser."
+msgstr ""
+
+#: templates/plugin-introduction.php:196 templates/plugin-introduction.php:197
+msgid "FooEvents Calendar"
+msgstr ""
+
+#: templates/plugin-introduction.php:198
+msgid ""
+"The FooEvents Calendar plugin makes it possible to display event lists and "
+"calendars using shortcodes and widgets."
+msgstr ""
+
+#: templates/plugin-introduction.php:228 templates/plugin-introduction.php:229
+msgid "FooEvents Express Check-in"
+msgstr ""
+
+#: templates/plugin-introduction.php:230
+msgid ""
+"The FooEvents Express Check-in plugin ensures that checking in attendees at "
+"your event is fast and effortless."
+msgstr ""
+
+#: templates/product-event-expiration-settings.php:14
+msgid "Event expiration date:"
+msgstr "Event Ablauf Datum:"
+
+#: templates/product-event-expiration-settings.php:16
+msgid "The date when the event will automatically expire."
+msgstr "Datum, an dem das Event automatisch abläuft."
+
+#: templates/product-event-expiration-settings.php:21
+msgid "Expiration message:"
+msgstr "Ablauf Mitteilung:"
+
+#: templates/product-event-expiration-settings.php:23
+msgid ""
+"The message that will be displayed on the product page when the event has "
+"expired."
+msgstr ""
+"Die Mitteilung, die auf der Produktseite angezeigt wird, wenn das Event "
+"abgelaufen ist."
+
+#: templates/product-event-expiration-settings.php:26
+msgid "Ticket Expiration"
+msgstr "Ticket Ablauf"
+
+#: templates/product-event-expiration-settings.php:29
+msgid "Expiration type:"
+msgstr "Ablauf Typ:"
+
+#: templates/product-event-expiration-settings.php:30
+msgid "Fixed date"
+msgstr "Festes Datum"
+
+#: templates/product-event-expiration-settings.php:31
+msgid "Elapsed time"
+msgstr "Zeitablauf"
+
+#: templates/product-event-expiration-settings.php:32
+msgid ""
+"Select either a fixed date or elapsed time since the ticket was purchased to "
+"automatically expire tickets."
+msgstr ""
+"Wähle entweder ein festes Datum oder Zeitablauf nach Ticket Kauf um Ticket "
+"automatisch ablaufen zu lassen."
+
+#: templates/product-event-expiration-settings.php:37
+msgid "Select fixed date:"
+msgstr "Wähle ein Datum:"
+
+#: templates/product-event-expiration-settings.php:39
+msgid "Select the fixed ticket expiration date."
+msgstr "Wähle das Ticket Ablaufdatum."
+
+#: templates/product-event-expiration-settings.php:44
+msgid "Select elapsed time:"
+msgstr "Wähle die Zeit bis zum Ablauf:"
+
+#: templates/product-event-expiration-settings.php:51
+msgid "Years"
+msgstr "Jahre"
+
+#: templates/product-event-expiration-settings.php:52
+msgid "Months"
+msgstr "Monate"
+
+#: templates/product-event-expiration-settings.php:53
+msgid "Weeks"
+msgstr "Wochen"
+
+#: templates/product-event-expiration-settings.php:54
+msgid "Days"
+msgstr "Tage"
+
+#: templates/product-event-expiration-settings.php:55
+msgid "Hours"
+msgstr "Stunden"
+
+#: templates/product-event-expiration-settings.php:56
+msgid "Minutes"
+msgstr "Minuten"
+
+#: templates/product-event-expiration-settings.php:58
+msgid "Select the unit of time to be used for elapsed time."
+msgstr "Wähle die Zeiteinheit für die Ablaufzeit."
+
+#: templates/product-event-export-settings.php:14
+msgid "Export attendees"
+msgstr "Teilnehmer exportieren"
+
+#: templates/product-event-export-settings.php:17
+msgid "Include unpaid tickets:"
+msgstr "Einschließlich unbezhalter Tickets:"
+
+#: templates/product-event-export-settings.php:17
+msgid "Include unpaid tickets in exported file."
+msgstr "Unbezhalte Tickets in exportierter Datei einschließen."
+
+#: templates/product-event-export-settings.php:18
+msgid "Include billing details:"
+msgstr "Einschließlich Rechnungsdetails:"
+
+#: templates/product-event-export-settings.php:18
+msgid "Include billing details in exported file."
+msgstr "Rechnungsdetails in exportierter Datei einschließen."
+
+#: templates/product-event-export-settings.php:19
+msgid "Download CSV of attendees"
+msgstr "CSV mit Teilnehmerdaten herunterladen"
+
+#: templates/product-event-integration-settings.php:41
+msgid ""
+"Requires the Zoom Video Webinars service to be purchased in your Zoom "
+"account."
+msgstr ""
+"Erfordert den bezahlten Zugang zum Zoom Video Webinar Service in deinem "
+"Zoom Konto."
+
+#: templates/product-event-integration-settings.php:59
+msgid ""
+"Select the host of Zoom meetings/webinars that get generated automatically."
+msgstr ""
+"Wähle den Organisator der automatisch generierten Zoom Meetings/Webinare."
+
+#: templates/product-event-integration-settings.php:72
+msgid ""
+"Select or automatically generate a Zoom meeting/webinar for this event which "
+"attendees will automatically be registered for when purchasing an event "
+"ticket."
+msgstr ""
+
+#: templates/product-event-integration-settings.php:77
+msgid ""
+"Select or automatically generate a Zoom meeting/webinar for each day of this "
+"multi-day event which attendees will automatically be registered for when "
+"purchasing an event ticket. Note: Requires the FooEvents Multi-day plugin."
+msgstr ""
+
+#: templates/product-event-integration-settings.php:82
+msgid ""
+"Select or automatically generate a Zoom meeting/webinar for each date/time "
+"slot of the bookable event which attendees will automatically be registered "
+"for when purchasing an event ticket. Note: Requires the FooEvents Bookings "
+"plugin."
+msgstr ""
+
+#: templates/product-event-integration-settings.php:93
+#: templates/product-event-integration-settings.php:146
+msgid "Webinars"
+msgstr "Webinare"
+
+#: templates/product-event-integration-settings.php:100
+#: templates/product-event-integration-settings.php:153
+msgid "Meetings"
+msgstr "Meetings"
+
+#: templates/product-event-integration-settings.php:187
+msgid ""
+"Set the duration of Zoom meetings/webinars that get generated automatically "
+"for booking date and time slots."
+msgstr ""
+
+#: templates/product-event-integration-settings.php:226
+msgid ""
+"Select an audience where you would like the attendees of this event to be "
+"automatically added as contacts in Mailchimp. This takes priority over the "
+"default audience list in the FooEvents settings. Note: The audience must "
+"first be setup in your Mailchimp account."
+msgstr ""
+
+#: templates/product-event-integration-settings.php:229
+msgid "Audience tags"
+msgstr ""
+
+#: templates/product-event-integration-settings.php:231
+msgid ""
+"Specify tags as comma-separated values (,) which you would like to be "
+"associated with all the attendees of this event when they are automatically "
+"added as contacts in Mailchimp. This takes priority over the default "
+"audience tags in the FooEvents settings."
+msgstr ""
+
+#: templates/product-event-printing-settings.php:16
+msgid "Format:"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:19
+msgid "10 tickets per sheet (Letter size)"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:20
+msgid "10 tickets per sheet 5.5in x 1.75in (Avery 16154 Tickets Letter size)"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:21
+msgid "10 tickets per sheet (A4 size)"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:22
+msgid "3 tickets per sheet (A4 size)"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:26
+msgid "6 badges per sheet 4in x 3in (Avery 5392/5393 Letter size)"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:27
+msgid "10 badges per sheet 4.025in x 2in (Avery 5163/8163 Letter size)"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:28
+msgid "12 badges per sheet 63.5mm x 72mm (Microsoft W233 A4 size)"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:29
+msgid "16 badges per sheet 99mm x 33.9mm (Microsoft W121 A4 size)"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:30
+msgid "24 badges per sheet 35mm x 70mm (Microsoft W110 A4 size)"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:31
+msgid "30 badges per sheet 2.625in x 1in (Avery 5160/8160 Letter size)"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:32
+msgid "39 badges per sheet 66mm x 20.60mm (Microsoft W239 A4 size)"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:33
+msgid "45 badges per sheet 38.5mm x 29.9mm (Microsoft W115 A4 size)"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:36
+msgid "5 labels per sheet 9-3/4\" x 1-1/4\" (Avery 22845 Letter size)"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:37
+msgid ""
+"1 Z-band Fun/Splash wristband per sheet 10\" x 1\" for Zebra ZD510-HC printer"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:40
+msgid "1 certificate per sheet (Letter size/Portrait)"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:41
+msgid "1 certificate per sheet (Letter size/Landscape)"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:42
+msgid "1 certificate per sheet (A4 size/Portrait)"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:43
+msgid "1 certificate per sheet (A4 size/Landscape)"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:46
+msgid "The number of items to print per sheet as well as the page format."
+msgstr ""
+
+#: templates/product-event-printing-settings.php:49
+msgid "Number of columns:"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:51
+msgid ""
+"The number of columns to display in the stationery layout area. The "
+"recommended number of columns will be set by default but this can be "
+"adjusted manually."
+msgstr ""
+
+#: templates/product-event-printing-settings.php:54
+msgid "Number of rows:"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:56
+msgid ""
+"The number of rows to display in the stationery layout area. The recommended "
+"number of rows will be set by default but this can be adjusted manually."
+msgstr ""
+
+#: templates/product-event-printing-settings.php:59
+msgid "Include cut lines?"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:61
+msgid "Display ticket cut lines on page."
+msgstr ""
+
+#: templates/product-event-printing-settings.php:64
+msgid "Background image"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:67
+msgid "Upload file"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:70
+msgid ""
+"Background image that will be displayed on each ticket, label or certificate "
+"page"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:76
+msgid "Include all attendees"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:78
+msgid "Include all the attendees for this event in the selected stationery."
+msgstr ""
+
+#: templates/product-event-printing-settings.php:81
+msgid "Specific ticket number(s):"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:83
+msgid ""
+"Enter the ticket number(s) that will be used to populate the selected "
+"stationery, separated by commas (,). If both the ticket number and order "
+"number fields are empty, then all the attendees for this event will be "
+"included."
+msgstr ""
+
+#: templates/product-event-printing-settings.php:86
+msgid "Specific order number(s):"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:88
+msgid ""
+"Enter the order number(s) that will be used to populate the selected "
+"stationery, separated by commas (,). If both the ticket number and order "
+"number fields are empty, then all the attendees for this event will be "
+"included."
+msgstr ""
+
+#: templates/product-event-printing-settings.php:91
+msgid "Sort order:"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:93
+msgid "Most recent tickets first"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:94
+msgid "Oldest tickets first"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:95
+msgid "Alphabetical by Attendee First Name"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:96
+msgid "Alphabetical by Attendee Last Name"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:98
+msgid ""
+"Choose the sort order for how the selected stationery will be arranged when "
+"printed."
+msgstr ""
+
+#: templates/product-event-printing-settings.php:105
+msgid "+ Expand Fields"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:115
+msgid ""
+"Select the logo or other image that you would like to display in tickets."
+msgstr ""
+
+#: templates/product-event-printing-settings.php:128
+#: templates/product-event-printing-settings.php:154
+#: templates/product-event-printing-settings.php:169
+#: templates/product-event-printing-settings.php:184
+#: templates/product-event-printing-settings.php:199
+#: templates/product-event-printing-settings.php:225
+#: templates/product-event-printing-settings.php:244
+#: templates/product-event-printing-settings.php:259
+#: templates/product-event-printing-settings.php:274
+#: templates/product-event-printing-settings.php:289
+#: templates/product-event-printing-settings.php:304
+#: templates/product-event-printing-settings.php:319
+#: templates/product-event-printing-settings.php:342
+#: templates/product-event-printing-settings.php:380
+#: templates/product-event-printing-settings.php:416
+#: templates/product-event-printing-settings.php:452
+#: templates/product-event-printing-settings.php:490
+#: templates/product-event-printing-settings.php:526
+#: templates/product-event-printing-settings.php:562
+#: templates/product-event-printing-settings.php:600
+#: templates/product-event-printing-settings.php:636
+#: templates/product-event-printing-settings.php:672
+msgid "Small regular text"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:129
+#: templates/product-event-printing-settings.php:155
+#: templates/product-event-printing-settings.php:170
+#: templates/product-event-printing-settings.php:185
+#: templates/product-event-printing-settings.php:200
+#: templates/product-event-printing-settings.php:226
+#: templates/product-event-printing-settings.php:245
+#: templates/product-event-printing-settings.php:260
+#: templates/product-event-printing-settings.php:275
+#: templates/product-event-printing-settings.php:290
+#: templates/product-event-printing-settings.php:305
+#: templates/product-event-printing-settings.php:320
+#: templates/product-event-printing-settings.php:343
+#: templates/product-event-printing-settings.php:381
+#: templates/product-event-printing-settings.php:417
+#: templates/product-event-printing-settings.php:453
+#: templates/product-event-printing-settings.php:491
+#: templates/product-event-printing-settings.php:527
+#: templates/product-event-printing-settings.php:563
+#: templates/product-event-printing-settings.php:601
+#: templates/product-event-printing-settings.php:637
+#: templates/product-event-printing-settings.php:673
+msgid "Small uppercase text"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:130
+#: templates/product-event-printing-settings.php:156
+#: templates/product-event-printing-settings.php:171
+#: templates/product-event-printing-settings.php:186
+#: templates/product-event-printing-settings.php:201
+#: templates/product-event-printing-settings.php:227
+#: templates/product-event-printing-settings.php:246
+#: templates/product-event-printing-settings.php:261
+#: templates/product-event-printing-settings.php:276
+#: templates/product-event-printing-settings.php:291
+#: templates/product-event-printing-settings.php:306
+#: templates/product-event-printing-settings.php:321
+#: templates/product-event-printing-settings.php:344
+#: templates/product-event-printing-settings.php:382
+#: templates/product-event-printing-settings.php:418
+#: templates/product-event-printing-settings.php:454
+#: templates/product-event-printing-settings.php:492
+#: templates/product-event-printing-settings.php:528
+#: templates/product-event-printing-settings.php:564
+#: templates/product-event-printing-settings.php:602
+#: templates/product-event-printing-settings.php:638
+#: templates/product-event-printing-settings.php:674
+msgid "Medium regular text"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:131
+#: templates/product-event-printing-settings.php:157
+#: templates/product-event-printing-settings.php:172
+#: templates/product-event-printing-settings.php:187
+#: templates/product-event-printing-settings.php:202
+#: templates/product-event-printing-settings.php:228
+#: templates/product-event-printing-settings.php:247
+#: templates/product-event-printing-settings.php:262
+#: templates/product-event-printing-settings.php:277
+#: templates/product-event-printing-settings.php:292
+#: templates/product-event-printing-settings.php:307
+#: templates/product-event-printing-settings.php:322
+#: templates/product-event-printing-settings.php:345
+#: templates/product-event-printing-settings.php:383
+#: templates/product-event-printing-settings.php:419
+#: templates/product-event-printing-settings.php:455
+#: templates/product-event-printing-settings.php:493
+#: templates/product-event-printing-settings.php:529
+#: templates/product-event-printing-settings.php:565
+#: templates/product-event-printing-settings.php:603
+#: templates/product-event-printing-settings.php:639
+#: templates/product-event-printing-settings.php:675
+msgid "Medium uppercase text"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:132
+#: templates/product-event-printing-settings.php:158
+#: templates/product-event-printing-settings.php:173
+#: templates/product-event-printing-settings.php:188
+#: templates/product-event-printing-settings.php:203
+#: templates/product-event-printing-settings.php:229
+#: templates/product-event-printing-settings.php:248
+#: templates/product-event-printing-settings.php:263
+#: templates/product-event-printing-settings.php:278
+#: templates/product-event-printing-settings.php:293
+#: templates/product-event-printing-settings.php:308
+#: templates/product-event-printing-settings.php:323
+#: templates/product-event-printing-settings.php:346
+#: templates/product-event-printing-settings.php:384
+#: templates/product-event-printing-settings.php:420
+#: templates/product-event-printing-settings.php:456
+#: templates/product-event-printing-settings.php:494
+#: templates/product-event-printing-settings.php:530
+#: templates/product-event-printing-settings.php:566
+#: templates/product-event-printing-settings.php:604
+#: templates/product-event-printing-settings.php:640
+#: templates/product-event-printing-settings.php:676
+msgid "Large regular text"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:133
+#: templates/product-event-printing-settings.php:159
+#: templates/product-event-printing-settings.php:174
+#: templates/product-event-printing-settings.php:189
+#: templates/product-event-printing-settings.php:204
+#: templates/product-event-printing-settings.php:230
+#: templates/product-event-printing-settings.php:249
+#: templates/product-event-printing-settings.php:264
+#: templates/product-event-printing-settings.php:279
+#: templates/product-event-printing-settings.php:294
+#: templates/product-event-printing-settings.php:309
+#: templates/product-event-printing-settings.php:324
+#: templates/product-event-printing-settings.php:347
+#: templates/product-event-printing-settings.php:385
+#: templates/product-event-printing-settings.php:421
+#: templates/product-event-printing-settings.php:457
+#: templates/product-event-printing-settings.php:495
+#: templates/product-event-printing-settings.php:531
+#: templates/product-event-printing-settings.php:567
+#: templates/product-event-printing-settings.php:605
+#: templates/product-event-printing-settings.php:641
+#: templates/product-event-printing-settings.php:677
+msgid "Large uppercase text"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:362
+msgid "Stationery layout:"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:363
+msgid "Drag the desired fields from above into the layout blocks below."
+msgstr ""
+
+#: templates/product-event-printing-settings.php:708
+msgid "Save Changes"
+msgstr ""
+
+#: templates/product-event-printing-settings.php:709
+msgid "Print Items"
+msgstr ""
+
+#: templates/product-event-settings.php:14
+msgid "Is this product an event?"
+msgstr ""
+
+#: templates/product-event-settings.php:16
+msgid "No"
+msgstr ""
+
+#: templates/product-event-settings.php:17
+msgid "Yes"
+msgstr ""
+
+#: templates/product-event-settings.php:19
+msgid "This option enables event and ticketing functionality."
+msgstr ""
+
+#: templates/product-event-settings.php:25
+msgid "Event type:"
+msgstr ""
+
+#: templates/product-event-settings.php:27
+msgid ""
+"Events that occur over multiple days and repeat for a set number of "
+"sequential days. Note: Requires the FooEvents Multi-day plugin."
+msgstr ""
+
+#: templates/product-event-settings.php:28
+msgid ""
+"Events that repeat over multiple calendar days. Note: Requires the FooEvents "
+"Multi-day plugin."
+msgstr ""
+
+#: templates/product-event-settings.php:29
+msgid ""
+"Events that require customers to select from available date and time slots "
+"(bookings and repeat events). Note: Requires the FooEvents Bookings plugin."
+msgstr ""
+
+#: templates/product-event-settings.php:30
+msgid ""
+"Events that include the ability for customers to select row and seat numbers "
+"from a seating chart. Note: Requires the FooEvents Seating plugin."
+msgstr ""
+
+#: templates/product-event-settings.php:39
+msgid ""
+"The date that the event is scheduled to take place. This is used as a label "
+"on your website and it's also used by the FooEvents Calendar to display the "
+"event."
+msgstr ""
+
+#: templates/product-event-settings.php:63
+msgid "The time that the event is scheduled to start."
+msgstr ""
+
+#: templates/product-event-settings.php:86
+msgid "The time that the event is scheduled to end."
+msgstr ""
+
+#: templates/product-event-settings.php:91
+msgid "Time zone:"
+msgstr ""
+
+#: templates/product-event-settings.php:98
+msgid ""
+"The time zone where the event is taking place. If no time zone is set then "
+"the attendee's local time zone will be used for the 'Add to Calendar' "
+"functionality in the ticket email."
+msgstr ""
+
+#: templates/product-event-settings.php:106
+msgid "The venue where the event will be hosted."
+msgstr ""
+
+#: templates/product-event-settings.php:111
+msgid "GPS coordinates:"
+msgstr ""
+
+#: templates/product-event-settings.php:113
+msgid "GPS coordinates for the venue."
+msgstr ""
+
+#: templates/product-event-settings.php:118
+msgid "Google Maps coordinates:"
+msgstr ""
+
+#: templates/product-event-settings.php:120
+msgid ""
+"GPS coordinates that are used to calculate the pin position for Google Maps "
+"on the event page. A valid Google Maps API key must first be saved in "
+"FooEvents settings."
+msgstr ""
+
+#: templates/product-event-settings.php:123
+msgid "Google Maps API key not set."
+msgstr ""
+
+#: templates/product-event-settings.php:123
+msgid "Please check the Event Integration settings."
+msgstr ""
+
+#: templates/product-event-settings.php:131
+msgid "Directions to the venue."
+msgstr ""
+
+#: templates/product-event-settings.php:136 templates/tickets-add-ticket.php:71
+msgid "Phone number:"
+msgstr ""
+
+#: templates/product-event-settings.php:138
+msgid "Event organizer's contact number."
+msgstr ""
+
+#: templates/product-event-settings.php:143
+msgid "Email address:"
+msgstr ""
+
+#: templates/product-event-settings.php:145
+msgid "Event organizer's email address."
+msgstr ""
+
+#: templates/product-event-settings.php:151
+msgid "Thank-you page text:"
+msgstr ""
+
+#: templates/product-event-settings.php:153
+msgid ""
+"The copy that will be displayed on the thank-you page after ticket purchase."
+msgstr ""
+
+#: templates/product-event-settings.php:160
+msgid "Event details tab text:"
+msgstr ""
+
+#: templates/product-event-settings.php:162
+msgid "The copy that will be displayed in the event details tab."
+msgstr ""
+
+#: templates/product-event-settings.php:168
+msgid "Calendar background color:"
+msgstr ""
+
+#: templates/product-event-settings.php:170
+msgid ""
+"Color of the calendar background for the event. Also changes the background "
+"color of the date icon in the FooEvents Check-ins app."
+msgstr ""
+
+#: templates/product-event-settings.php:175
+msgid "Calendar text color:"
+msgstr ""
+
+#: templates/product-event-settings.php:177
+msgid ""
+"Color of the calendar text for the event. Also changes the font color of the "
+"date icon in the FooEvents Check-ins app."
+msgstr ""
+
+#: templates/product-event-settings.php:182
+msgid "Capture attendee full name and email address? "
+msgstr ""
+
+#: templates/product-event-settings.php:184
+msgid "This will add attendee capture fields on the checkout screen."
+msgstr ""
+
+#: templates/product-event-settings.php:189
+msgid "Capture attendee phone number?"
+msgstr ""
+
+#: templates/product-event-settings.php:191
+msgid ""
+"This will add a telephone number field to the attendee capture fields on the "
+"checkout screen."
+msgstr ""
+
+#: templates/product-event-settings.php:196
+msgid "Capture attendee company name?"
+msgstr ""
+
+#: templates/product-event-settings.php:198
+msgid ""
+"This will add a company field to the attendee capture fields on the checkout "
+"screen."
+msgstr ""
+
+#: templates/product-event-settings.php:203
+msgid "Capture attendee designation?"
+msgstr ""
+
+#: templates/product-event-settings.php:205
+msgid ""
+"This will add a designation field to the attendee capture fields on the "
+"checkout screen."
+msgstr ""
+
+#: templates/product-event-settings.php:210
+msgid "Validate unique attendee email addresses at checkout?"
+msgstr ""
+
+#: templates/product-event-settings.php:212
+msgid ""
+"If enabled an unique email address which hasn't already been used to "
+"register for the event is required for all attendees before checkout can be "
+"completed."
+msgstr ""
+
+#: templates/product-event-settings.php:218
+msgid "Display seating options on product pages?"
+msgstr ""
+
+#: templates/product-event-settings.php:220
+msgid ""
+"This will display the seating options on the product page and make it "
+"required to select seats before proceeding to check out. Before enabling "
+"this option, please ensure that you have setup a seating chart on the Event "
+"Seating tab."
+msgstr ""
+
+#: templates/product-event-settings.php:225
+msgid "Display seating chart on checkout page?"
+msgstr ""
+
+#: templates/product-event-settings.php:227
+msgid ""
+"This will display a 'View seating chart' link on the checkout page. Before "
+"enabling this option, please ensure that you have setup a seating chart on "
+"the Event Seating tab."
+msgstr ""
+
+#: templates/product-event-settings.php:234
+msgid "Display booking slots and dates on product pages?"
+msgstr ""
+
+#: templates/product-event-settings.php:236
+msgid ""
+"This will display the booking date and slot drop-down options on the product "
+"page."
+msgstr ""
+
+#: templates/product-event-settings.php:241
+msgid "Hide booking time in slot drop-down?"
+msgstr ""
+
+#: templates/product-event-settings.php:243
+msgid "This will hide the time of the booking in the selected slot drop-down."
+msgstr ""
+
+#: templates/product-event-settings.php:248
+msgid "Hide stock availability notice?"
+msgstr ""
+
+#: templates/product-event-settings.php:250
+msgid ""
+"Hide the stock availability notice. This is typically used when offering "
+"unlimited stock."
+msgstr ""
+
+#: templates/product-event-settings.php:255
+msgid "Show stock availability in the date and slot drop-downs?"
+msgstr ""
+
+#: templates/product-event-settings.php:257
+msgid ""
+"This will include the amount of remaining stock for a specific date and slot "
+"combination within the drop-down selectors."
+msgstr ""
+
+#: templates/product-event-settings.php:262
+msgid "Show out of stock booking dates?"
+msgstr ""
+
+#: templates/product-event-settings.php:264
+msgid "Show dates that have no stock."
+msgstr ""
+
+#: templates/product-event-settings.php:269
+msgid "Hide the booking date in combined drop-down?"
+msgstr ""
+
+#: templates/product-event-settings.php:271
+msgid ""
+"This will hide the date of the booking and only display the slot label in "
+"the combined date/slot drop-down. Please note that the combined drop-down "
+"options will only display when multiple slots are set for the same date OR a "
+"single slot is set that has multiple dates."
+msgstr ""
+
+#: templates/product-event-settings.php:276
+msgid "Bookings selection order"
+msgstr ""
+
+#: templates/product-event-settings.php:278
+msgid "Slot -> Date"
+msgstr ""
+
+#: templates/product-event-settings.php:279
+msgid "Date -> Slot"
+msgstr ""
+
+#: templates/product-event-settings.php:281
+msgid ""
+"Displays the order of bookings drop-down selectors as either Slot then Date "
+"OR Date then Slot."
+msgstr ""
+
+#: templates/product-event-settings.php:286
+msgid "Display booking slots and dates on:"
+msgstr ""
+
+#: templates/product-event-settings.php:288
+msgid "Checkout Page"
+msgstr ""
+
+#: templates/product-event-settings.php:289
+msgid "Product Page"
+msgstr ""
+
+#: templates/product-event-settings.php:290
+msgid "Checkout Page and Product Page"
+msgstr ""
+
+#: templates/product-event-settings.php:292
+msgid ""
+"This will display the booking date and slot drop-down options on the "
+"checkout, product page or checkout and product page."
+msgstr ""
+
+#: templates/product-event-settings.php:298
+msgid "Display event details in New Order email?"
+msgstr ""
+
+#: templates/product-event-settings.php:300
+msgid ""
+"This will display the event details in the 'New Order' transactional email "
+"which WooCommerce sends to the store admin."
+msgstr ""
+
+#: templates/product-event-settings.php:305
+msgid "Display attendee details in New Order email?"
+msgstr ""
+
+#: templates/product-event-settings.php:307
+msgid ""
+"This will display the attendee details in the 'New Order' transactional "
+"email which WooCommerce sends to the store admin."
+msgstr ""
+
+#: templates/product-event-settings.php:312
+msgid "Display booking details in New Order email?"
+msgstr ""
+
+#: templates/product-event-settings.php:314
+msgid ""
+"This will display the booking details in the 'New Order' transactional email "
+"which WooCommerce sends to the store admin."
+msgstr ""
+
+#: templates/product-event-settings.php:319
+msgid "Display seating details in New Order email?"
+msgstr ""
+
+#: templates/product-event-settings.php:321
+msgid ""
+"This will display the seating details in the 'New Order' transactional email "
+"which WooCommerce sends to the store admin."
+msgstr ""
+
+#: templates/product-event-settings.php:326
+msgid "Display custom attendee details in New Order email?"
+msgstr ""
+
+#: templates/product-event-settings.php:328
+msgid ""
+"This will display the custom attendee details in the 'New Order' "
+"transactional email which WooCommerce sends to the store admin."
+msgstr ""
+
+#: templates/product-event-terminology-settings.php:18
+msgid "Attendee:"
+msgstr ""
+
+#: templates/product-event-terminology-settings.php:21
+msgid "Change 'Attendee' to your own custom text for this event."
+msgstr ""
+
+#: templates/product-event-terminology-settings.php:24
+msgid "Book ticket:"
+msgstr ""
+
+#: templates/product-event-terminology-settings.php:27
+msgid "Change 'Book ticket' to your own custom text for this event."
+msgstr ""
+
+#: templates/product-listing-filter-options.php:11
+msgid "All Products Types"
+msgstr ""
+
+#: templates/product-listing-filter-options.php:17
+msgid "All Events"
+msgstr ""
+
+#: templates/product-listing-filter-options.php:24
+msgid "Single Day Events"
+msgstr ""
+
+#: templates/product-listing-filter-options.php:31
+msgid "Multi-day Events (Sequential)"
+msgstr ""
+
+#: templates/product-listing-filter-options.php:38
+msgid "Multi-day Events (Selected Days)"
+msgstr ""
+
+#: templates/product-listing-filter-options.php:45
+msgid "Bookable Events"
+msgstr ""
+
+#: templates/product-listing-filter-options.php:52
+msgid "Seating Events"
+msgstr ""
+
+#: templates/product-listing-filter-options.php:59
+msgid "Non-events"
+msgstr ""
+
+#: templates/product-ticket-settings.php:14
+msgid "HTML ticket theme:"
+msgstr ""
+
+#: templates/product-ticket-settings.php:20
+msgid ""
+"Select the ticket theme that will be used to style the embedded HTML tickets "
+"within ticket emails."
+msgstr ""
+
+#: templates/product-ticket-settings.php:27
+msgid "Ticket logo:"
+msgstr ""
+
+#: templates/product-ticket-settings.php:33
+msgid ""
+"Full URL that links to the logo that will be used in the ticket (JPG or PNG "
+"format)."
+msgstr ""
+
+#: templates/product-ticket-settings.php:39
+msgid "Ticket header image:"
+msgstr ""
+
+#: templates/product-ticket-settings.php:45
+msgid ""
+"Full URL that links to the image that will be used as the ticket header (JPG "
+"or PNG format)."
+msgstr ""
+
+#: templates/product-ticket-settings.php:50
+msgid "Ticket email subject:"
+msgstr ""
+
+#: templates/product-ticket-settings.php:52
+msgid ""
+"The subject line used in ticket emails. Use {OrderNumber} to display the "
+"proper order number."
+msgstr ""
+
+#: templates/product-ticket-settings.php:58
+msgid "Ticket email body:"
+msgstr ""
+
+#: templates/product-ticket-settings.php:60
+msgid "The copy that will be displayed in the main body of the ticket email."
+msgstr ""
+
+#: templates/product-ticket-settings.php:68
+msgid "Ticket accent:"
+msgstr ""
+
+#: templates/product-ticket-settings.php:70
+msgid "This color is used for the ticket border or background."
+msgstr ""
+
+#: templates/product-ticket-settings.php:77
+msgid "Ticket button:"
+msgstr ""
+
+#: templates/product-ticket-settings.php:86
+msgid "Ticket button text:"
+msgstr ""
+
+#: templates/product-ticket-settings.php:88
+msgid "Color of the ticket button text."
+msgstr ""
+
+#: templates/product-ticket-settings.php:93
+msgid "Display purchaser or attendee details on ticket?"
+msgstr ""
+
+#: templates/product-ticket-settings.php:95
+msgid "Display the purchaser/attendee's name and details on the ticket."
+msgstr ""
+
+#: templates/product-ticket-settings.php:101
+msgid "Display \"Add to calendar\" option on ticket?"
+msgstr ""
+
+#: templates/product-ticket-settings.php:103
+msgid ""
+"Display an 'Add to calendar' button on the ticket which will generate an ICS "
+"file containing the event details when clicked."
+msgstr ""
+
+#: templates/product-ticket-settings.php:108
+msgid "\"Add to calendar\" reminder alerts:"
+msgstr ""
+
+#: templates/product-ticket-settings.php:132
+msgid "+ New reminder"
+msgstr ""
+
+#: templates/product-ticket-settings.php:133
+msgid ""
+"Add calendar alerts at specified intervals to remind attendees about the "
+"event. These alerts will automatically appear in the attendee's calendar "
+"client after clicking the 'Add to calendar' button on the ticket."
+msgstr ""
+
+#: templates/product-ticket-settings.php:138
+msgid "Attach calendar ICS file to the ticket email?"
+msgstr ""
+
+#: templates/product-ticket-settings.php:140
+msgid ""
+"Attach an ICS file to the ticket email so that the event details "
+"automatically appear in certain calendar clients."
+msgstr ""
+
+#: templates/product-ticket-settings.php:145
+msgid "Display date and time on ticket?"
+msgstr ""
+
+#: templates/product-ticket-settings.php:147
+msgid "Display the time and date of the event on the ticket."
+msgstr ""
+
+#: templates/product-ticket-settings.php:152
+msgid "Display barcode on ticket?"
+msgstr ""
+
+#: templates/product-ticket-settings.php:154
+msgid "Display a barcode on the ticket which is used for check-ins."
+msgstr ""
+
+#: templates/product-ticket-settings.php:159
+msgid "Display price on ticket?"
+msgstr ""
+
+#: templates/product-ticket-settings.php:161
+msgid "Display the ticket price on the ticket."
+msgstr ""
+
+#: templates/product-ticket-settings.php:166
+msgid "Display booking details on ticket?"
+msgstr ""
+
+#: templates/product-ticket-settings.php:168
+msgid "Display the booking details on the ticket."
+msgstr ""
+
+#: templates/product-ticket-settings.php:171
+msgid "Display Zoom meeting/webinar details on ticket?"
+msgstr ""
+
+#: templates/product-ticket-settings.php:173
+msgid ""
+"Display all the Zoom meeting/webinar details such as the Meeting ID and Join "
+"link on the ticket."
+msgstr ""
+
+#: templates/product-ticket-settings.php:179
+msgid "Display multi-day details on ticket?"
+msgstr ""
+
+#: templates/product-ticket-settings.php:181
+msgid "Display multi-day details on the ticket."
+msgstr ""
+
+#: templates/product-ticket-settings.php:187
+msgid "Email ticket to attendee rather than purchaser?"
+msgstr ""
+
+#: templates/product-ticket-settings.php:189
+msgid ""
+"This will email the ticket to the attendee instead of the ticket purchaser."
+msgstr ""
+
+#: templates/product-ticket-settings.php:194
+msgid "Email tickets?"
+msgstr ""
+
+#: templates/product-ticket-settings.php:196
+msgid ""
+"This will email the event tickets to the attendee or purchaser once the "
+"order has been completed."
+msgstr ""
+
+#: templates/reports-event-listing.php:12
+msgid "Event Reports"
+msgstr ""
+
+#: templates/reports-report-page.php:13
+msgid "Back to Reports"
+msgstr ""
+
+#: templates/reports-report-page.php:15
+msgid "View Tickets"
+msgstr ""
+
+#: templates/reports-report-page.php:20
+msgid "From"
+msgstr ""
+
+#: templates/reports-report-page.php:24
+msgid "To"
+msgstr ""
+
+#: templates/reports-report-page.php:29
+msgid "30 Days"
+msgstr ""
+
+#: templates/reports-report-page.php:30
+msgid "90 Days"
+msgstr ""
+
+#: templates/reports-report-page.php:31
+msgid "Year"
+msgstr ""
+
+#: templates/reports-report-page.php:35
+msgid "Canceled tickets"
+msgstr ""
+
+#: templates/reports-report-page.php:42 templates/reports-report-page.php:47
+msgid "None"
+msgstr ""
+
+#: templates/reports-report-page.php:52 templates/reports-report-page.php:81
+msgid "Net Revenue"
+msgstr ""
+
+#: templates/reports-report-page.php:67
+msgid "Check-ins"
+msgstr ""
+
+#: templates/reports-report-page.php:72
+msgid "Check-outs"
+msgstr ""
+
+#: templates/reports-report-page.php:106
+msgid "Check-ins (By Date Range)"
+msgstr ""
+
+#: templates/reports-report-page.php:114
+msgid "Check-ins (Past 24 Hours)"
+msgstr ""
+
+#: templates/reports-report-page.php:123
+msgid "Check-outs (By Date Range)"
+msgstr ""
+
+#: templates/reports-report-page.php:131
+msgid "Check-outs (Past 24 Hours)"
+msgstr ""
+
+#: templates/reports-report-page.php:142
+msgid "Attendee Check-in Details"
+msgstr ""
+
+#: templates/ticket-filter-options.php:11
+msgid "All Products"
+msgstr ""
+
+#: templates/ticket-themes-viewer.php:11
+msgid "Ticket Themes"
+msgstr ""
+
+#: templates/ticket-themes-viewer.php:20
+msgid "Upload your Ticket Theme ZIP file:"
+msgstr ""
+
+#: templates/ticket-themes-viewer.php:22
+msgid "Upload Ticket Theme"
+msgstr ""
+
+#: templates/ticket-themes-viewer.php:35
+msgid "Send preview to:"
+msgstr ""
+
+#: templates/ticket-themes-viewer.php:39
+msgid "Send Ticket Preview"
+msgstr ""
+
+#: templates/tickets-add-ticket-event-details.php:17
+#: templates/tickets-edit-ticket.php:85
+msgid "Date: "
+msgstr ""
+
+#: templates/tickets-add-ticket-event-details.php:25
+msgid "Start time: "
+msgstr ""
+
+#: templates/tickets-add-ticket-event-details.php:33
+msgid "End time: "
+msgstr ""
+
+#: templates/tickets-add-ticket-event-details.php:41
+#: templates/tickets-edit-ticket.php:101
+msgid "Venue: "
+msgstr ""
+
+#: templates/tickets-add-ticket-event-details.php:49
+msgid "GPS Coordinates: "
+msgstr ""
+
+#: templates/tickets-add-ticket-event-details.php:57
+#: templates/tickets-edit-ticket.php:174
+msgid "Phone: "
+msgstr ""
+
+#: templates/tickets-add-ticket-event-details.php:65
+#: templates/tickets-edit-ticket.php:184
+msgid "Email: "
+msgstr ""
+
+#: templates/tickets-add-ticket.php:16
+msgid "Select Event:"
+msgstr ""
+
+#: templates/tickets-add-ticket.php:18
+msgid "Please select..."
+msgstr ""
+
+#: templates/tickets-add-ticket.php:28 templates/tickets-edit-ticket.php:157
+msgid "Purchaser Details"
+msgstr ""
+
+#: templates/tickets-add-ticket.php:31
+msgid "Select Existing User:"
+msgstr ""
+
+#: templates/tickets-add-ticket.php:33
+msgid "Select..."
+msgstr ""
+
+#: templates/tickets-add-ticket.php:41
+msgid "Username:"
+msgstr ""
+
+#: templates/tickets-add-ticket.php:51
+msgid "Display Name:"
+msgstr ""
+
+#: templates/tickets-add-ticket.php:59 templates/tickets-edit-ticket.php:22
+msgid "First Name:"
+msgstr ""
+
+#: templates/tickets-add-ticket.php:63 templates/tickets-edit-ticket.php:26
+msgid "Last Name:"
+msgstr ""
+
+#: templates/tickets-add-ticket.php:75
+msgid "Company name:"
+msgstr ""
+
+#: templates/tickets-edit-ticket-resend-ticket.php:18
+msgid "Resend"
+msgstr ""
+
+#: templates/tickets-edit-ticket-status.php:14
+msgid "Set Status:"
+msgstr ""
+
+#: templates/tickets-edit-ticket.php:120
+msgid "View"
+msgstr ""
+
+#: templates/tickets-edit-ticket.php:125
+msgid "Order Details"
+msgstr ""
+
+#: templates/tickets-edit-ticket.php:130
+msgid "Order ID: "
+msgstr ""
+
+#: templates/tickets-edit-ticket.php:138
+msgid "Order Status: "
+msgstr ""
+
+#: templates/tickets-edit-ticket.php:148
+msgid "Order Amount: "
+msgstr ""
+
+#: templates/tickets-edit-ticket.php:163
+msgid "Name: "
+msgstr ""
