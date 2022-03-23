@@ -1,0 +1,196 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: fooevents_pdf_tickets\n"
+"POT-Creation-Date: 2022-02-28 13:27+0200\n"
+"PO-Revision-Date: 2022-02-28 13:27+0200\n"
+"Last-Translator: Jörn Lentes\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-fooevents-pdf-tickets.php:219
+msgid ""
+"The FooEvents PDF Tickets plugin requires FooEvents for WooCommerce to be "
+"installed."
+msgstr ""
+"Das FooEvents PDF Tickets Plugin erfordert dass FooEvent für WooCommerce "
+"installiert ist."
+
+#: class-fooevents-pdf-tickets.php:232
+msgid ""
+"GD libraries is not enabled on your server. This is a requirement for "
+"FooEvents PDF tickets. Please contact your host to enable this."
+msgstr ""
+"GD Bibliotheken sind auf deinem Server nicht verfügbar. Diese werden für "
+"FooEvents PDF Tickets benötigt. Bitte kontaktiere deinen Administrator, "
+"um diese verfübar zu machen."
+
+#: class-fooevents-pdf-tickets.php:238
+msgid ""
+"The setting allow_url_fopen is not enabled on your server. This is a "
+"requirement for FooEvents PDF tickets. Please contact your host to enable "
+"this."
+msgstr ""
+"Die Einstellung allow_url_fopen istauf deinem Server nicht aktiviert. Diese "
+"ist für FooEvents PDF Tickets erforderlich. Bitte kontaktiere deinen "
+"Administrator, um diese aktivieren zu lassen."
+
+#: class-fooevents-pdf-tickets.php:244
+msgid ""
+"The PHP MBstring module is not enabled on your server. This is a requirement "
+"for FooEvents PDF tickets. Please contact your host to enable this."
+msgstr ""
+"Das PHP MBstring Modul ist auf deinem Server nicht aktiviert. Dieses ist "
+"erforderlich für FooEvents PDF Tickets. Bitte kontaktiere deinen "
+"Administrator, um diese aktivieren zu lassen."
+
+#: class-fooevents-pdf-tickets.php:301
+msgid " PDF Tickets"
+msgstr " PDF Tickets"
+
+#: class-fooevents-pdf-tickets.php:596 templates/my-account-ticket-list.php:10
+msgid "Tickets"
+msgstr "Tickets"
+
+#: templates/default_pdf_multiple/ticket.php:3
+#: templates/default_pdf_multiple/ticket.php:7
+#: templates/default_pdf_multiple/ticket.php:21
+#: templates/default_pdf_single/ticket.php:2
+#: templates/default_pdf_single/ticket.php:6
+msgid "Preview Event"
+msgstr "Event Vorschau"
+
+#: templates/default_pdf_multiple/ticket.php:87
+#: templates/default_pdf_single/ticket.php:99
+msgid "Location:"
+msgstr "Ort:"
+
+#: templates/default_pdf_multiple/ticket.php:90
+#: templates/default_pdf_single/ticket.php:102
+msgid "Directions:"
+msgstr "Anfahrt:"
+
+#: templates/default_pdf_multiple/ticket.php:130
+#: templates/default_pdf_single/ticket.php:106
+msgid "Ticket Number:"
+msgstr "Ticket Nummer:"
+
+#: templates/default_pdf_multiple/ticket.php:133
+#: templates/default_pdf_single/ticket.php:109
+msgid "Ticket Holder:"
+msgstr "Ticket Nutzer:"
+
+#: templates/default_pdf_multiple/ticket.php:136
+#: templates/default_pdf_single/ticket.php:112
+msgid "Telephone Number:"
+msgstr "Telefonnummer:"
+
+#: templates/default_pdf_multiple/ticket.php:140
+#: templates/default_pdf_single/ticket.php:116
+msgid "Company:"
+msgstr "Unternehmen:"
+
+#: templates/default_pdf_multiple/ticket.php:144
+#: templates/default_pdf_single/ticket.php:120
+msgid "Designation:"
+msgstr "Anrede:"
+
+#: templates/default_pdf_multiple/ticket.php:162
+#: templates/default_pdf_single/ticket.php:139
+msgid "Price:"
+msgstr "Preis:"
+
+#: templates/default_pdf_multiple/ticket.php:180
+#: templates/default_pdf_single/ticket.php:167
+msgid "Add to calendar"
+msgstr "Zum Kalender hinzufügen"
+
+#: templates/global-settings-pdf.php:13
+msgid "PDF Tickets"
+msgstr "PDF Tickets"
+
+#: templates/global-settings-pdf.php:18
+msgid "Enable PDF tickets"
+msgstr "PDF Ticket aktivieren"
+
+#: templates/global-settings-pdf.php:21
+msgid "Adds PDF ticket attachments to ticket emails."
+msgstr "Fügt PDF Ticket Anhänge zu den Ticket Emails hinzu."
+
+#: templates/global-settings-pdf.php:25
+msgid "Enable PDF ticket downloads"
+msgstr "PDF Ticket Download aktivieren?"
+
+#: templates/global-settings-pdf.php:28
+msgid ""
+"Allows purchasers to download a copy of their PDF tickets from the My "
+"Account page."
+msgstr ""
+"Ermöglicht dem Käufer eine Kopie der PDF Tickets auf der 'Mein Konto' "
+"Seite herunterzuladen."
+
+#: templates/global-settings-pdf.php:32
+msgid "Attach PDF ticket to HTML ticket email"
+msgstr "PDF Tickets an HTML Ticket Emails anhängen"
+
+#: templates/global-settings-pdf.php:35
+msgid "Attaches the PDF ticket to the HTML ticket email when sent."
+msgstr "Hängt PDF Tickets beim Senden an HTML Ticket Email an."
+
+#: templates/global-settings-pdf.php:39
+msgid "Enable Arabic character support"
+msgstr "Support für arabische Zeichen aktivieren"
+
+#: templates/global-settings-pdf.php:42
+msgid "Displays Arabic characters in PDF tickets"
+msgstr "Arabische Zeichen in PDF Tickets anzeigen"
+
+#: templates/global-settings-pdf.php:46
+msgid "Font"
+msgstr "Schriftart"
+
+#: templates/global-settings-pdf.php:52
+msgid ""
+"DejaVu Sans is the default PDF font. Firefly Sung supports CJK (Chinese, "
+"Japanese, Korean) characters"
+msgstr ""
+"DejaVu Sans ist die Standard PDF Schriftart. Firefly Sung unterstützt "
+"CJK (Chinesische, Japanische, Koreanische) Zeichen."
+
+#: templates/my-account-ticket-list.php:25
+msgid "Download"
+msgstr "Herunterladen"
+
+#: templates/product-pdf-ticket-options.php:10
+msgid "PDF settings"
+msgstr "PDF Einstellungen"
+
+#: templates/product-pdf-ticket-options.php:14
+msgid "Email text:"
+msgstr "Email Text:"
+
+#: templates/product-pdf-ticket-options.php:21
+msgid "Ticket footer text:"
+msgstr "Ticket Fusszeilentext:"
+
+#: templates/product-pdf-ticket-theme-options.php:12
+msgid "PDF ticket theme:"
+msgstr "PDF Ticket Theme:"
+
+#: templates/product-pdf-ticket-theme-options.php:18
+msgid ""
+"Select the PDF compatible ticket theme that will be used to style the PDF "
+"tickets that are attached to ticket emails."
+msgstr ""
+"Wähle das PDF-kompatible Ticket Theme das als Layout für PDF Tickets "
+"verwendet wird, die an Ticket Emails angehangen werden."
+
+#: templates/tickets-edit-ticket-pdf-link.php:12
+msgid "Download PDF Ticket"
+msgstr "PDF Ticket herunterladen"
