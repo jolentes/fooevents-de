@@ -1,0 +1,172 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FooEvents Custom Attendee Fields\n"
+"POT-Creation-Date: 2022-02-15 11:23+0200\n"
+"PO-Revision-Date: 2022-02-15 11:23+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e;esc_attr__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-fooevents-custom-attendee-fields.php:78
+#: templates/custom-attendee-fields-add-ticket.php:11
+#: templates/custom-attendee-fields-options.php:11
+#: templates/custom-attendee-ticket-detail.php:2
+msgid "Custom Attendee Fields"
+msgstr "Erweiterte Teilnehmer Felder"
+
+#: class-fooevents-custom-attendee-fields.php:171
+msgid ""
+"The FooEvents Custom Attendee plugin requires FooEvents for WooCommerce to "
+"be installed."
+msgstr ""
+"Das FooEvents Custom Attendee Fields Plugin erfordert dass FooEvents for "
+"WooCommerce installiert ist."
+
+#: class-fooevents-custom-attendee-fields.php:204
+msgid "Attendee"
+msgstr "Teilnehmer"
+
+#: class-fooevents-custom-attendee-fields.php:558
+#: class-fooevents-custom-attendee-fields.php:606
+#, php-format
+msgid "%s is a required field."
+msgstr "%s ist ein erforderliches Feld."
+
+#: class-fooevents-custom-attendee-fields.php:759
+#, php-format
+msgid " is required for %1$s attendee %2$d"
+msgstr " ist erforderlich bei %1$s Teilnehmer %2$d"
+
+#: class-fooevents-custom-attendee-fields.php:769
+#, php-format
+msgid " is not a valid email address for %s attendee %d"
+msgstr " ist keine gültige Email Adresse bei %s Teilnehmer %d"
+
+#: class-fooevents-custom-attendee-fields.php:777
+#, php-format
+msgid " is not a valid URL for %s attendee %d"
+msgstr " ist keine gültige URL bei %s Teilnehmer %d"
+
+#: class-fooevents-custom-attendee-fields.php:785
+#, php-format
+msgid " is not a valid number for %s attendee %d"
+msgstr " ist keine gültige Zahl bei %s Teilnehmer %d"
+
+#: class-fooevents-custom-attendee-fields.php:793
+#, php-format
+msgid " needs to contain only alphabet characters for %s attendee %d"
+msgstr " darf nur alphabetische Zeichen enthalten bei %s Teilnehmer %d"
+
+#: class-fooevents-custom-attendee-fields.php:801
+#, php-format
+msgid " needs to contain only alphabet or number characters for %s attendee %d"
+msgstr " darf nur alphanumerische Zeichen enthalten bei %s Teilnehmer %d"
+
+#: templates/custom-attendee-fields-options.php:18
+msgid "Label"
+msgstr "Label"
+
+#: templates/custom-attendee-fields-options.php:19
+msgid "Type"
+msgstr "Typ"
+
+#: templates/custom-attendee-fields-options.php:20
+msgid "Options"
+msgstr "Einstellungen"
+
+#: templates/custom-attendee-fields-options.php:21
+msgid "Default"
+msgstr "Standard"
+
+#: templates/custom-attendee-fields-options.php:22
+msgid "Required"
+msgstr "Erforderlich"
+
+#: templates/custom-attendee-fields-options.php:48
+msgid "Text"
+msgstr "Text"
+
+#: templates/custom-attendee-fields-options.php:49
+msgid "Textarea"
+msgstr "Textbereich"
+
+#: templates/custom-attendee-fields-options.php:50
+msgid "Select"
+msgstr "Auswählen"
+
+#: templates/custom-attendee-fields-options.php:51
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#: templates/custom-attendee-fields-options.php:52
+msgid "Radio"
+msgstr "Radio"
+
+#: templates/custom-attendee-fields-options.php:53
+msgid "Country"
+msgstr "Land"
+
+#: templates/custom-attendee-fields-options.php:54
+msgid "Date"
+msgstr "Datum"
+
+#: templates/custom-attendee-fields-options.php:55
+msgid "Time"
+msgstr "Zeit"
+
+#: templates/custom-attendee-fields-options.php:56
+msgid "Email"
+msgstr "Email"
+
+#: templates/custom-attendee-fields-options.php:57
+msgid "URL"
+msgstr "URL"
+
+#: templates/custom-attendee-fields-options.php:58
+msgid "Numbers"
+msgstr "Zahlen"
+
+#: templates/custom-attendee-fields-options.php:59
+msgid "Alphabet"
+msgstr "Buchstaben"
+
+#: templates/custom-attendee-fields-options.php:60
+msgid "Alphanumeric"
+msgstr "Alpha-Numerisch"
+
+#: templates/custom-attendee-fields-options.php:71
+msgid "Yes"
+msgstr "Ja"
+
+#: templates/custom-attendee-fields-options.php:72
+msgid "No"
+msgstr "Nein"
+
+#: templates/custom-attendee-fields-options.php:88
+msgid "New field"
+msgstr "Neues Feld"
+
+#: templates/custom-attendee-fields-options.php:89
+msgid ""
+"When using the 'Select' or 'Radio' options, seperate the options using a "
+"pipe symbol. Example: Small|Medium|Large."
+msgstr ""
+"Wenn du 'Auswahl' oder 'Radio' Felder nutzt, gibt die Werte mit Pipe "
+"Symbol getrennt an. Beispiel Klein|Mittel|Groß."
+
+#: templates/include-custom-attendee-details-options.php:3
+#: templates/product-custom-attendee-options.php:3
+msgid "Display custom attendee details on ticket?"
+msgstr "Erweiterte Teilnehmer Details auf dem Ticket anzeigen?"
+
+#: templates/include-custom-attendee-details-options.php:5
+#: templates/product-custom-attendee-options.php:5
+msgid "This will display custom attendee fields on the ticket."
+msgstr "Zeigt die erweiterten Teilnehmer Detailfelder auf dem Ticket an."
