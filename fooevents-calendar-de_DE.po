@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FooEvents Calendar\n"
 "POT-Creation-Date: 2022-02-15 10:41+0200\n"
-"PO-Revision-Date: 2022-02-15 10:41+0200\n"
-"Last-Translator: Jörn Lentes\n"
+"PO-Revision-Date: 2022-03-23 19:39+0100\n"
+"Last-Translator: Jörn Lentes <consulting@lentes.me>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -43,8 +43,7 @@ msgid "FooEvents"
 msgstr "FooEvents"
 
 #: class-fooevents-calendar.php:281
-msgid ""
-"You do not have sufficient permissions to access this page."
+msgid "You do not have sufficient permissions to access this page."
 msgstr ""
 "Du hast keine ausreichende Berechtigung, um auf diese Seite zuzugreifen."
 
@@ -150,10 +149,8 @@ msgid "Dark Card"
 msgstr "Dunkle Karte"
 
 #: class-fooevents-calendar.php:2124
-msgid ""
-"Selects events list theme to be used on Wordpress frontend."
-msgstr ""
-"Wählt das Eventlisten Theme, das im Wordpress Frontend verwendet wird."
+msgid "Selects events list theme to be used on Wordpress frontend."
+msgstr "Wählt das Eventlisten Theme, das im Wordpress Frontend verwendet wird."
 
 #: classes/class-fooevents-calendar-widget.php:18
 msgid "FooEvents Calendar"
@@ -221,8 +218,7 @@ msgid "Eventbrite private token"
 msgstr "Eventbrite Private Token"
 
 #: templates/calendar-options-eventbrite.php:19
-msgid ""
-"Optional API key that is used to add events to your Eventbrite account."
+msgid "Optional API key that is used to add events to your Eventbrite account."
 msgstr ""
 "Optionaler API Key, der verwendet wird, um die Events zu deinem Eventbrite "
 "Konto hinzufügen."
@@ -236,11 +232,10 @@ msgid "Enable 24-hour time format"
 msgstr "24-Stunden Zeitformat aktivieren"
 
 #: templates/calendar-options.php:22
-msgid ""
-"Uses the 24-hour time format on the calendar instead of 12-hour format."
+msgid "Uses the 24-hour time format on the calendar instead of 12-hour format."
 msgstr ""
-"Verwendet das 24-Stunden Zeitformat für den Kalender an Stelle des "
-"12-Stunden Formates."
+"Verwendet das 24-Stunden Zeitformat für den Kalender an Stelle des 12-"
+"Stunden Formates."
 
 #: templates/calendar-options.php:26
 msgid "Only display start date"
@@ -375,9 +370,9 @@ msgid ""
 "Select the type of multi-day event. 'Sequential' means the days are in "
 "consecutive order whereas 'Select' allows you to choose the exact days."
 msgstr ""
-"Wähle des Typ des mehrtägigen Events. 'Zusammenhängend' bedeuted, dass "
-"die Tage direkt aufeinander folgen, 'Tage auswählen' ermöglicht die "
-"exakte Auswahl der Tage."
+"Wähle des Typ des mehrtägigen Events. 'Zusammenhängend' bedeuted, dass die "
+"Tage direkt aufeinander folgen, 'Tage auswählen' ermöglicht die exakte "
+"Auswahl der Tage."
 
 #: templates/eventmetabox.php:47
 msgid "Day:"
@@ -406,8 +401,8 @@ msgid ""
 "website and it's also used by the FooEvents Calendar to display a multi-day "
 "event."
 msgstr ""
-"Das geplante Ende Datum des Events. Dies wird als Label auf der Webseite "
-"und im FooEvents Kalender verwendet, um ein mehrtägiges Event anzuzeigen."
+"Das geplante Ende Datum des Events. Dies wird als Label auf der Webseite und "
+"im FooEvents Kalender verwendet, um ein mehrtägiges Event anzuzeigen."
 
 #: templates/eventmetabox.php:74
 msgid "Start time:"
@@ -415,7 +410,7 @@ msgstr "Start Zeit:"
 
 #: templates/eventmetabox.php:92
 msgid "The time that the event is scheduled to start."
-msgstr "Zeit des geplanten Starts des Events"
+msgstr "Zeit des geplanten Starts des Events."
 
 #: templates/eventmetabox.php:97
 msgid "End time:"
