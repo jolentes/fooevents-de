@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fooevents_pdf_tickets\n"
 "POT-Creation-Date: 2022-02-28 13:27+0200\n"
-"PO-Revision-Date: 2022-02-28 13:27+0200\n"
-"Last-Translator: Jörn Lentes\n"
+"PO-Revision-Date: 2022-03-23 19:43+0100\n"
+"Last-Translator: Jörn Lentes <consulting@lentes.me>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -28,8 +28,8 @@ msgid ""
 "FooEvents PDF tickets. Please contact your host to enable this."
 msgstr ""
 "GD Bibliotheken sind auf deinem Server nicht verfügbar. Diese werden für "
-"FooEvents PDF Tickets benötigt. Bitte kontaktiere deinen Administrator, "
-"um diese verfübar zu machen."
+"FooEvents PDF Tickets benötigt. Bitte kontaktiere deinen Administrator, um "
+"diese verfübar zu machen."
 
 #: class-fooevents-pdf-tickets.php:238
 msgid ""
@@ -125,15 +125,15 @@ msgstr "Fügt PDF Ticket Anhänge zu den Ticket Emails hinzu."
 
 #: templates/global-settings-pdf.php:25
 msgid "Enable PDF ticket downloads"
-msgstr "PDF Ticket Download aktivieren?"
+msgstr "PDF Ticket Download aktivieren"
 
 #: templates/global-settings-pdf.php:28
 msgid ""
 "Allows purchasers to download a copy of their PDF tickets from the My "
 "Account page."
 msgstr ""
-"Ermöglicht dem Käufer eine Kopie der PDF Tickets auf der 'Mein Konto' "
-"Seite herunterzuladen."
+"Ermöglicht dem Käufer eine Kopie der PDF Tickets auf der 'Mein Konto' Seite "
+"herunterzuladen."
 
 #: templates/global-settings-pdf.php:32
 msgid "Attach PDF ticket to HTML ticket email"
@@ -160,8 +160,8 @@ msgid ""
 "DejaVu Sans is the default PDF font. Firefly Sung supports CJK (Chinese, "
 "Japanese, Korean) characters"
 msgstr ""
-"DejaVu Sans ist die Standard PDF Schriftart. Firefly Sung unterstützt "
-"CJK (Chinesische, Japanische, Koreanische) Zeichen."
+"DejaVu Sans ist die Standard PDF Schriftart. Firefly Sung unterstützt CJK "
+"(Chinesische, Japanische, Koreanische) Zeichen"
 
 #: templates/my-account-ticket-list.php:25
 msgid "Download"
