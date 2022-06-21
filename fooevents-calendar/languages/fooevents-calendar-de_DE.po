@@ -1,15 +1,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FooEvents Calendar\n"
-"POT-Creation-Date: 2022-02-15 10:41+0200\n"
-"PO-Revision-Date: 2022-03-23 19:39+0100\n"
+"POT-Creation-Date: 2022-05-24 12:37+0200\n"
+"PO-Revision-Date: 2022-06-21 08:46+0200\n"
 "Last-Translator: Jörn Lentes <consulting@lentes.me>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.0.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1\n"
 "X-Poedit-KeywordsList: __;_e;esc_attr_e;esc_attr__\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -30,7 +31,7 @@ msgstr "Einführung"
 msgid "Done"
 msgstr "Erledigt"
 
-#: class-fooevents-calendar.php:179 class-fooevents-calendar.php:1384
+#: class-fooevents-calendar.php:179 class-fooevents-calendar.php:1469
 msgid "Today"
 msgstr "Heute"
 
@@ -59,96 +60,100 @@ msgstr "Importiertes Event"
 msgid "FooEvents Calendar Settings"
 msgstr "FooEvents Kalender Einstellungen"
 
-#: class-fooevents-calendar.php:780
+#: class-fooevents-calendar.php:477
+msgid "Day"
+msgstr "Tag"
+
+#: class-fooevents-calendar.php:865
 msgid "Event start date required for Eventbrite."
 msgstr "Event Start Datum ist für Eventbrite erforderlich."
 
-#: class-fooevents-calendar.php:786
+#: class-fooevents-calendar.php:871
 msgid "Event end date required for Eventbrite."
 msgstr "Event Ende Datum ist für Eventbrite erforderlich."
 
-#: class-fooevents-calendar.php:792
+#: class-fooevents-calendar.php:877
 msgid "Event title required for Eventbrite."
 msgstr "Event Titel ist für Eventbrite erforderlich."
 
-#: class-fooevents-calendar.php:1088
+#: class-fooevents-calendar.php:1173
 #, php-format
 msgid "%1$d events added. %2$d events updated."
 msgstr "%1$d Events hinzugefügt. %2$d Events aktualisiert."
 
-#: class-fooevents-calendar.php:1160 class-fooevents-calendar.php:1301
+#: class-fooevents-calendar.php:1245 class-fooevents-calendar.php:1386
 msgid "Book ticket"
 msgstr "Ticket buchen"
 
-#: class-fooevents-calendar.php:2068
+#: class-fooevents-calendar.php:2175
 msgid "Calendar Settings"
 msgstr "Kalender Einstellungen"
 
-#: class-fooevents-calendar.php:2074
+#: class-fooevents-calendar.php:2181
 msgid "Enable 24 hour time format"
 msgstr "24-Stunden Zeitformat aktivieren"
 
-#: class-fooevents-calendar.php:2078
+#: class-fooevents-calendar.php:2185
 msgid "Uses 24 hour time format on the calendar."
 msgstr "24-Stunden Zeitformat für den Kalender verwenden."
 
-#: class-fooevents-calendar.php:2082
+#: class-fooevents-calendar.php:2189
 msgid "Only display start day"
 msgstr "Nur das Start Datum anzeigen"
 
-#: class-fooevents-calendar.php:2086
+#: class-fooevents-calendar.php:2193
 msgid "When multi-day plugin is active only display the event start day"
 msgstr "Nur das Start Datum anzeigen, wenn das Multi-Day Plugin aktiv ist"
 
-#: class-fooevents-calendar.php:2090
+#: class-fooevents-calendar.php:2197
 msgid "Enable full day events"
 msgstr "Ganztägige Events aktivieren"
 
-#: class-fooevents-calendar.php:2094
+#: class-fooevents-calendar.php:2201
 msgid "Removes event time from calendar entry titles."
 msgstr "Entfernt die Event Zeit aus Kalender Titeln."
 
-#: class-fooevents-calendar.php:2098 templates/calendar-options.php:45
+#: class-fooevents-calendar.php:2205 templates/calendar-options.php:45
 msgid "Calendar theme"
 msgstr "Kalender Theme"
 
-#: class-fooevents-calendar.php:2104 class-fooevents-calendar.php:2120
+#: class-fooevents-calendar.php:2211 class-fooevents-calendar.php:2227
 msgid "Default"
 msgstr "Standard"
 
-#: class-fooevents-calendar.php:2105
+#: class-fooevents-calendar.php:2212
 msgid "Light"
 msgstr "Hell"
 
-#: class-fooevents-calendar.php:2106
+#: class-fooevents-calendar.php:2213
 msgid "Dark"
 msgstr "Dunkel"
 
-#: class-fooevents-calendar.php:2107
+#: class-fooevents-calendar.php:2214
 msgid "Flat"
 msgstr "Flach"
 
-#: class-fooevents-calendar.php:2108
+#: class-fooevents-calendar.php:2215
 msgid "Minimalist"
 msgstr "Minimalistisch"
 
-#: class-fooevents-calendar.php:2110
+#: class-fooevents-calendar.php:2217
 msgid "Selects calendar theme to be used on Wordpress frontend."
 msgstr "Wählt das Kalender Theme, das im Wordpress Frontend verwendet wird."
 
-#: class-fooevents-calendar.php:2114 templates/calendar-options.php:58
+#: class-fooevents-calendar.php:2221 templates/calendar-options.php:58
 msgid "Events list theme"
 msgstr "Eventlisten Theme"
 
-#: class-fooevents-calendar.php:2121
+#: class-fooevents-calendar.php:2228
 msgid "Light Card"
 msgstr "Helle Karte"
 
-#: class-fooevents-calendar.php:2122
+#: class-fooevents-calendar.php:2229
 msgid "Dark Card"
 msgstr "Dunkle Karte"
 
-#: class-fooevents-calendar.php:2124
+#: class-fooevents-calendar.php:2231
 msgid "Selects events list theme to be used on Wordpress frontend."
 msgstr "Wählt das Eventlisten Theme, das im Wordpress Frontend verwendet wird."
 
@@ -317,35 +322,35 @@ msgstr "Mit Post Typen assoziieren"
 msgid "Select which post types will be associated with events."
 msgstr "Wähle welche Post Typen mit Events assoziiert werden."
 
-#: templates/eventbrite-options.php:13 templates/eventmetabox.php:147
+#: templates/eventbrite-options.php:13 templates/eventmetabox.php:198
 msgid "Add event to Eventbrite"
 msgstr "Event zu Eventbrite hinzufügen"
 
-#: templates/eventbrite-options.php:15 templates/eventmetabox.php:149
+#: templates/eventbrite-options.php:15 templates/eventmetabox.php:200
 msgid "Checking this option will submit the event to Eventbrite."
 msgstr "Aktivierung dieser Option überträgt das Event zu Eventbrite."
 
-#: templates/eventmetabox.php:13
+#: templates/eventmetabox.php:14
 msgid "Is this post an event?:"
 msgstr "Ist dieser Post ein Event?:"
 
-#: templates/eventmetabox.php:15
+#: templates/eventmetabox.php:16
 msgid "No"
 msgstr "Nein"
 
-#: templates/eventmetabox.php:16
+#: templates/eventmetabox.php:17
 msgid "Yes"
 msgstr "Ja"
 
-#: templates/eventmetabox.php:18
+#: templates/eventmetabox.php:19
 msgid "This option enables event and ticketing functionality."
 msgstr "Diese Einstellung aktiviert die Event und Ticket Funktionalität."
 
-#: templates/eventmetabox.php:25
+#: templates/eventmetabox.php:26
 msgid "Number of days:"
 msgstr "Anzahl der Tage:"
 
-#: templates/eventmetabox.php:31
+#: templates/eventmetabox.php:32
 msgid ""
 "Select the number of days for multi-day events. This setting is used by the "
 "Event Check-ins apps to manage daily check-ins."
@@ -353,19 +358,23 @@ msgstr ""
 "Legt die Anzahl der Tage für mehrtägige Events fest. Diese Einstellung wird "
 "von der Event Check-Ins App zur Verwaltung der täglichen Check-Ins verwendet."
 
-#: templates/eventmetabox.php:36
-msgid "Multi-day type:"
-msgstr "Mutlit-Day Typ:"
-
 #: templates/eventmetabox.php:37
+msgid "Event type:"
+msgstr "Event Typ:"
+
+#: templates/eventmetabox.php:38
+msgid "Single"
+msgstr "Eintägig"
+
+#: templates/eventmetabox.php:39
 msgid "Sequential days"
 msgstr "Zusammenhängende Tage"
 
-#: templates/eventmetabox.php:38
+#: templates/eventmetabox.php:40
 msgid "Select days"
 msgstr "Tage auswählen"
 
-#: templates/eventmetabox.php:39
+#: templates/eventmetabox.php:41
 msgid ""
 "Select the type of multi-day event. 'Sequential' means the days are in "
 "consecutive order whereas 'Select' allows you to choose the exact days."
@@ -374,15 +383,31 @@ msgstr ""
 "Tage direkt aufeinander folgen, 'Tage auswählen' ermöglicht die exakte "
 "Auswahl der Tage."
 
-#: templates/eventmetabox.php:47
-msgid "Day:"
-msgstr "Tag:"
+#: templates/eventmetabox.php:54 templates/eventmetabox.php:125
+msgid "Start time:"
+msgstr "Start Zeit:"
 
-#: templates/eventmetabox.php:58
+#: templates/eventmetabox.php:74 templates/eventmetabox.php:148
+msgid "End time:"
+msgstr "Ende Zeit:"
+
+#: templates/eventmetabox.php:100
+msgid "Set start/end times globally?"
+msgstr "Start/Ende Zeiten global setzen?"
+
+#: templates/eventmetabox.php:102
+msgid ""
+"Enable this option to use the same start and end times for each day of a "
+"multi-day event."
+msgstr ""
+"Diese Option ermöglicht es für alle Tage eines mehrtägigen Events die "
+"gleichen Start und Ende Zeiten zu verwenden."
+
+#: templates/eventmetabox.php:109
 msgid "Start date:"
 msgstr "Start Datum:"
 
-#: templates/eventmetabox.php:60
+#: templates/eventmetabox.php:111
 msgid ""
 "The date that the event is scheduled to take place. This is used as a label "
 "on your website and it's also used by the FooEvents Calendar to display the "
@@ -391,11 +416,11 @@ msgstr ""
 "Datum, an dem das Event statt finden soll. Dieses wird auf der Webseite als "
 "Label und im FooEvents Kalender verwendet, um das Event anzuzeigen."
 
-#: templates/eventmetabox.php:66
+#: templates/eventmetabox.php:117
 msgid "End date:"
 msgstr "Ende Datum:"
 
-#: templates/eventmetabox.php:68
+#: templates/eventmetabox.php:119
 msgid ""
 "The date that the event is scheduled to end. This is used as a label on your "
 "website and it's also used by the FooEvents Calendar to display a multi-day "
@@ -404,27 +429,19 @@ msgstr ""
 "Das geplante Ende Datum des Events. Dies wird als Label auf der Webseite und "
 "im FooEvents Kalender verwendet, um ein mehrtägiges Event anzuzeigen."
 
-#: templates/eventmetabox.php:74
-msgid "Start time:"
-msgstr "Start Zeit:"
-
-#: templates/eventmetabox.php:92
+#: templates/eventmetabox.php:143
 msgid "The time that the event is scheduled to start."
 msgstr "Zeit des geplanten Starts des Events."
 
-#: templates/eventmetabox.php:97
-msgid "End time:"
-msgstr "Ende Zeit:"
-
-#: templates/eventmetabox.php:115
+#: templates/eventmetabox.php:166
 msgid "The time that the event is scheduled to end"
 msgstr "Zeit des geplanten Endes des Events"
 
-#: templates/eventmetabox.php:120
+#: templates/eventmetabox.php:171
 msgid "Time zone:"
 msgstr "Zeitzone:"
 
-#: templates/eventmetabox.php:141
+#: templates/eventmetabox.php:192
 msgid "The time zone where the event is taking place."
 msgstr "Zeitzone in der das Event statt findet."
 

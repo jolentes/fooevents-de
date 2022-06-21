@@ -1,15 +1,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FooEvents Custom Attendee Fields\n"
-"POT-Creation-Date: 2022-02-15 11:23+0200\n"
-"PO-Revision-Date: 2022-03-23 19:40+0100\n"
+"POT-Creation-Date: 2022-05-24 11:19+0200\n"
+"PO-Revision-Date: 2022-06-21 08:47+0200\n"
 "Last-Translator: Jörn Lentes <consulting@lentes.me>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.0.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1\n"
 "X-Poedit-KeywordsList: __;_e;esc_attr_e;esc_attr__\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -29,42 +30,42 @@ msgstr ""
 "Das FooEvents Custom Attendee Fields Plugin erfordert dass FooEvents for "
 "WooCommerce installiert ist."
 
-#: class-fooevents-custom-attendee-fields.php:204
+#: class-fooevents-custom-attendee-fields.php:206
 msgid "Attendee"
 msgstr "Teilnehmer"
 
-#: class-fooevents-custom-attendee-fields.php:558
-#: class-fooevents-custom-attendee-fields.php:606
+#: class-fooevents-custom-attendee-fields.php:562
+#: class-fooevents-custom-attendee-fields.php:610
 #, php-format
 msgid "%s is a required field."
 msgstr "%s ist ein erforderliches Feld."
 
-#: class-fooevents-custom-attendee-fields.php:759
+#: class-fooevents-custom-attendee-fields.php:763
 #, php-format
 msgid " is required for %1$s attendee %2$d"
 msgstr " ist erforderlich bei %1$s Teilnehmer %2$d"
 
-#: class-fooevents-custom-attendee-fields.php:769
+#: class-fooevents-custom-attendee-fields.php:773
 #, php-format
 msgid " is not a valid email address for %s attendee %d"
 msgstr " ist keine gültige Email Adresse bei %s Teilnehmer %d"
 
-#: class-fooevents-custom-attendee-fields.php:777
+#: class-fooevents-custom-attendee-fields.php:781
 #, php-format
 msgid " is not a valid URL for %s attendee %d"
 msgstr " ist keine gültige URL bei %s Teilnehmer %d"
 
-#: class-fooevents-custom-attendee-fields.php:785
+#: class-fooevents-custom-attendee-fields.php:789
 #, php-format
 msgid " is not a valid number for %s attendee %d"
 msgstr " ist keine gültige Zahl bei %s Teilnehmer %d"
 
-#: class-fooevents-custom-attendee-fields.php:793
+#: class-fooevents-custom-attendee-fields.php:797
 #, php-format
 msgid " needs to contain only alphabet characters for %s attendee %d"
 msgstr " darf nur alphabetische Zeichen enthalten bei %s Teilnehmer %d"
 
-#: class-fooevents-custom-attendee-fields.php:801
+#: class-fooevents-custom-attendee-fields.php:805
 #, php-format
 msgid " needs to contain only alphabet or number characters for %s attendee %d"
 msgstr " darf nur alphanumerische Zeichen enthalten bei %s Teilnehmer %d"
